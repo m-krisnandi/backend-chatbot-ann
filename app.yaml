@@ -1,0 +1,8 @@
+runtime: python37
+entrypoint: gunicorn -b :$PORT main:app
+
+env_variables:
+    TELEGRAM_BOT_TOKEN: '5904449520:AAGzkbcjD3RqYeeKp5CSkxGO1xuL1Pi7cuk'
+    REDIS_HOST: 'redis-19937.c1.asia-northeast1-1.gce.cloud.redislabs.com'
+    REDIS_PORT: '19937'
+    REDIS_PASSWORD: '9HdXn66XKOrvvAYwVpON3yZdwUzeUWEO'
