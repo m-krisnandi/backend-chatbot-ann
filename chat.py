@@ -31,7 +31,7 @@ redis_client = redis.Redis(
 intents = json.loads(redis_client.get('intents'))
 
 FILE = "data.pth"
-data = torch.load(FILE)
+data = torch.load(FILE, map_location=device)
 
 input_size = data["input_size"]
 hidden_size = data["hidden_size"]
