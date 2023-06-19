@@ -1,5 +1,4 @@
 import os
-from flask_cors import CORS
 from dotenv import load_dotenv
 from threading import Thread
 from flask import Flask, request, jsonify
@@ -9,7 +8,6 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 app = Flask(__name__)
 load_dotenv()
-CORS(app)
 
 # replace with your Telegram API token
 bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
