@@ -1,0 +1,930 @@
+{
+  "intents": [
+    {
+      "tag": "tempat_wisata",
+      "patterns": [
+        "Apa saja tempat wisata di Kabupaten Bandung?",
+        "Sebutkan beberapa tempat wisata di Bandung",
+        "Saya ingin mengunjungi tempat wisata di Bandung",
+        "apa saja tempat wisata di kab. bandung",
+        "Sebutkan tempat wisata di Bandung",
+        "Saya ingin mengunjungi tempat wisata di Bandung",
+        "daftar wisata kabupaten bandung",
+        "info daftar tempat wisata di kabupaten bandung",
+        "info tempat wisata di kabupaten bandung",
+        "wisata apa aja yang ada di kabupaten bandung?",
+        "info wisata",
+        "info tempat wisata",
+        "infokan wisata",
+        "informasi wisata",
+        "info wisata kab bandung",
+        "info wisata kab.bandung",
+        "wisata",
+        "wisata kabupaten bandung",
+        "wisata kab.bandung",
+        "daftar wisata",
+        "daftar tempat wisata",
+        "daftar tempat wisata kabupaten bandung",
+        "objek wisata",
+        "objek wisata kab bandung"
+      ],
+      "responses": [
+        "*Berikut daftar objek wisata di Kabupaten Bandung antara lain:*\n1. PESONA NIRWANA WATER PARK\n2. VICTORY WATERPARK\n3. KAWASAN GEDUNG BUDAYA SABILULUNGAN (GBS)\n4. TAMAN LOVE\n5. BARUSEN HILL\n6. PALALANGON PARK\n7. PUNCELING PASS\n8. KAWAH PUTIH\n9. WISATA ALAM CIHANIWUNG\n10. RANCAUPAS\n11. PATUHA RESORT\n12. VILLA RANCABALI TEA RESORT\n13. WALINI (Pemandian Air Panas)\n14. GLAMPING LAKESIDE\n15. KAMPUNG BATU MALAKASARI\n16. KOLAM RENANG ALHAYU\n17. KOLAM RENANG TIRTA MULYA\n18. WATERBOOM CAHAYA ABADI\n19. Gn.PUNTANG\n20. KOLAM RENANG CIMENTENG\n21. CIBOLANG (Air Panas)\n22. MALABAR\n23. SITU CILEUNCA\n24. WAYANG WINDU\n25. CUKUL SUNRISE POINT\n26. CARINGIN TILU\n27. KRAMAT GANTUNG\n28. WATERBOOM TIRTA RIANG\n29. VILLA KANCIL\n30. CISANTI\n31. TIRTA ANYAR\n32. PEMANDIAN AIR PANAS TIRTA CAMELIA\n33. SUKAMANAH WATERBOOM\n34. KOLAM RENANG YASMIN KARTIKASURI\n35. CURUG CINULANG\n36. CICALENGKA DREAMLAND\n37. TAMAN BURU MASIGIT KAREMBI\n38. KOLAM RENANG CISAGO\n39. CURUG CILENGKRANG\n40. BATU KUDA\n41. TAHURA\n42. TEBING KRATON\n43. PUNCAK BINTANG\n44. TAMAN LANGIT\n45. CURUG BATU TEMPLEK\n46. DANAU CIKONENG BOJONGSOANG\n47. NUANSA RIUNG GUNUNG\n48. ARGO WISATA MEGA TUTUPAN BAROS\n49. BENDUNGAN ABAH HANTAP\n50. RANCA CANGKUANG\n51. SEBE ADVENTURRE PANGALENGAN\n52. TAMAN D’CAKRA (KOLAM RENANG)\n53. KAWAH WAYANG (PANGALENGAN)\n54. TANGGA 1000\n55. CANTIGI CAMP\n56. KOLAM RENANG DARMAGA ADIWISASTRA\n57. ABROIGIN SWIMMING POOL"
+      ],
+      "image_url": ""
+    },
+    {
+      "tag": "jenis_wisata",
+      "patterns": [
+        "jenis wisata bandung",
+        "jenis wisata",
+        "ada jenis wisata apa saja di bandung?",
+        "jenis wisata",
+        "jenis wisata kab bandung",
+        "daftar jenis wisata bandung",
+        "sebutkan jenis wisata",
+        "apa saja jenis wisata bandung",
+        "jenis wisata kabupaten bandung",
+        "jenis wisata di bandung",
+        "jenis wisata di kabupaten bandung"
+      ],
+      "responses": [
+        "*Destinasi pariwisata di Kabupaten Bandung yang terbagi kedalam 3 jenis wisata, yaitu:*\n\n*A. Wisata Alam*\n1. PUNCELING PASS\n2. KAWAH PUTIH\n3. WISATA ALAM CIHANIWUNG\n4. RANCAUPAS\n5. WALINI (Pemandian Air Panas)\n6. Gn.PUNTANG\n7. MALABAR\n8. SITU CILEUNCA\n9. WAYANG WINDU\n10. CUKUL SUNRISE POINT\n11. CARINGIN TILU\n12. KRAMAT GANTUNG\n13. CISANTI\n14. PEMANDIAN AIR PANAS TIRTA CAMELIA\n15. CURUG CINULANG\n16. TAMAN BURU MASIGIT KAREMBI\n17. CURUG CILENGKRANG\n18. BATU KUDA\n19. TAHURA\n20. TEBING KRATON\n21. PUNCAK BINTANG\n22. TAMAN LANGIT\n23. CURUG BATU TEMPLEK\n24. DANAU CIKONENG BOJONGSOANG\n25. NUANSA RIUNG GUNUNG\n26. ARGO WISATA MEGA TUTUPAN BAROS\n 27. BENDUNGAN ABAH HANTAP\n28. RANCA CANGKUANG\n29. SEBE ADVENTURRE PANGALENGAN\n\n*B. Wisata Buatan*\n1. PESONA NIRWANA WATER PARK\n2. VICTORY WATERPARK\n3. TAMAN LOVE\n4. BARUSEN HILL\n5. PALALANGON PARK\n6. PATUHA RESORT\n7. VILLA RANCABALI TEA RESORT\n8. GLAMPING LAKESIDE\n9. KAMPUNG BATU MALAKASARI\n10. KOLAM RENANG ALHAYU\n11. KOLAM RENANG TIRTA MULYA\n12. WATERBOOM CAHAYA ABADI\n13. KOLAM RENANG CIMENTENG\n14. CIBOLANG (Air Panas)\n15. WATERBOOM TIRTA RIANG\n16. VILLA KANCIL\n17. TIRTA ANYAR\n18. SUKAMANAH WATERBOOM\n19. KOLAM RENANG YASMIN KARTIKA SURI\n20. CICALENGKA DREAMLAND\n21. KOLAM RENANG CISAGO\n22. TAMAN D’CAKRA (KOLAM RENANG)\n23. KAWAH WAYANG\n24. TANGGA 1000\n25. CANTIGI CAMP\n26. KOLAM RENANG DARMAGA ADIWISASTRA\n27. ABROIGIN SWIMMING POOL\n\n*C. Wisata Budaya*\n1. KAWASAN GEDUNG BUDAYA SABILULUNGAN (GBS)"
+      ],
+      "image_url": ""
+    },
+    {
+      "tag": "pesona_nirwana_waterpark",
+      "patterns": [
+        "nirwana",
+        "pesona nirwana",
+        "nirwana waterpark",
+        "nirwana soreang",
+        "pesona nirwana soreang",
+        "kolam renang nirwana",
+        "pesona nirwana bandung",
+        "pesona nirwana renang",
+        "nirwana kolam renang",
+        "kolam renang pesona nirwana",
+        "tiket pesona nirwana",
+        "pesona nirwana waterpark bandung",
+        "pesona nirwana waterpark soreang",
+        "pesona nirwana soreang bandung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Pesona Nirwana Waterpark\n*Lokasi:* Kecamatan Soreang\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 50.000,-\n\n*Profil Objek:* Alamat kolam renang Pesona Nirwana Waterpark adalah di panyirapan, kampung kecamatan legok jeungjing, Soreang, desa Kabupaten Bandung, dan merupakan lokasi yang menjadi jalur utama wisata dari kota bandung menuju kawasan Wisata Ciwidey. Lokasi tempat rekreasi air di soreang ini memliki ciri khas dimana lokasinya kolam renang atau waterparknya di kelilingi oleh tebing, sehingga terkesan alami yang bisa berikan suguhan berbeda dengan kolam renang di bandung lainnya.\n\nWaterpark di Soreang ini berdiri di atas areal yang sangat luas, yaitu sekitar 400 m2. Kolam renang dengan konsep waterpark ini merupakan bagian awal dari rencana pembangunan sebuah resort dengan konsep yang ramah lingkungan dengan total kawasan seluas 4 hektar. Faktor Safety karena lokasinya yang berada di pinggir tebing, sudah sangat diperhatikan oleh pengelola, dimana tebing- tebing curam tersebut sudah diberi belt line ( sabuk pengaman ) di sekeliling tebingnya tersebut.\n\n*Fasilitas (Saran dan Prasarana):* Lazy River, Kiddy Pool, Water Slider, dan Jacuzzi. Prasarana) Tidak hanya 4 fasilitas di atas, untuk kenyamanan dan keamanan pengunjung, pengelola pun sudah menyediakan tenaga sekurity dan berlakukan satu pintu gerbang untuk akses keluar masuk pengunjung. Untuk tempat parkir juga sangat luas dan aman, yang mampu menampung banyak mobil dan motor. Dan yang lainnya terdapat juga area pusat kuliner seperti food court yang menjual beberapa menu kuliner bagi pengunjung. Harga Tiket Masuk kolam renang Pesona Nirwana Waterpark ini sebagai berikut : Senin – Jum’at (Weekday) Rp.40.000, Sabtu – Minggu/Libur (Weekend) Rp.60.000."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/Pesona%20Nirwana%20Waterpark.png"
+    },
+    {
+      "tag": "victory_waterpark",
+      "patterns": [
+        "victory",
+        "victory waterpark",
+        "victory soreang",
+        "victory waterpark soreang",
+        "waterpark soreang",
+        "kolam victory",
+        "victory kolam renang",
+        "victory bandung",
+        "tiket victory waterpark",
+        "victory waterpark bandung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Victory Waterpark\n*Lokasi:* Kecamatan Soreang\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp.25.000,- s/d Rp. 40.000,-\n\n*Profil Objek:* Taman air yang terletak di Soreang ini tergolong baru, diresmikan di pertengahan 2019. Dengan wahana permainan Air yang bermacam-macam, dan desain tempatnya yang kekinian sekali.\n\nBila dilihat dari golongan umum, kolam renang Victory nih digemari segala usia loh sob mulai dari anak-anak hingga para orang dewasa. Setidaknya terdapat empat kolam renang diperuntukkan anak- anak dan 1 kolam renang untuk dewasa. Jika sobat menentukan liburan ke mari, pasti dijamin puas deh dan betah berlama-lama di sini menikmati sensasi keseruan bermain air.\n\nWaterpark di Bandung ini didirikan di lahan sangat luas sob, kondisinya terawat dan airnya jernih. Tak cuman itu saja, panorama alam sekitar pun terlihat menyenangkan. Tak heran bila wisatawan betah berlama-lama di sini walaupun sekedar bermain air.\n\n*Fasilitas (Saran dan Prasarana):* Area Parkir yang luas, kamar bilas, kamar mandi, Prasarana)Toilet, Shower, kantin, gazebp, alat renang, mushola,dll."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/VICTORY%20WATERPARK.png"
+    },
+    {
+      "tag": "kawasan_gedung_budaya_sabilulungan",
+      "patterns": [
+        "Gedung Budaya Sabilulungan",
+        "Kawasan Gedung Budaya Sabilulungan",
+        "Kawasan Gedung Budaya Sabilulungan bandung",
+        "Kawasan Gedung Budaya soreang",
+        "gedung budaya soreang",
+        "Gedung Budaya Sabilulungan soreang",
+        "Gedung Budaya Sabilulungan bandung",
+        "Kawasan Gedung Budaya Sabilulungan kabupaten bandung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Kawasan Gedung Budaya Sabilulungan\n*Lokasi:* Kecamatan Soreang\n*Jenis Objek Wisata:* Wisata Budaya\n*Harga Tiket:* -\n\n*Profil Objek:* Gedung ini dibangun pada 2010 dan diresmikan tepat 20 Mei 2014. Lokasinya berada di Jalan Al Fathu-Soreang, tak jauh dari Kantor Pemkab Bandung. Keberadaanya sangat bermanfaat untuk masyarakat, kerap difungsikan sebagai venue pertunjukan musik, teater, pelatihan seni ataupun acara lainnya.\n\nBegitu masuk ke gedung ini, Teman Traveler akan disambut pameran aneka produk kerajinan tangan, budaya dan kesenian khas masyarakat Bumi Parahyangan, seperti wayang golek.\n\nSelain berperan sebagai wadah pengembangan seni budaya dan interaksi masyarakat, Gedung Seni Sabilulungan juga memiliki satu fasilitas menarik bernama Kaulinan Lembur.\n\n*Fasilitas (Saran dan Prasarana):* Kawasan ini dihiasi seni instalasi berukuran besar yang dibangun menyerupai bentuk alat permainan tradisional khas Parahyangan. Hal ini dilakukan sebagai bentuk edukasi anak-anak terhadap permainan zaman dulu, yang kini sudah terkikis waktu dan mulai ditinggalkan."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/KAWASAN%20GEDUNG%20BUDAYA%20SABILULUNGAN(GBS).png"
+    },
+    {
+      "tag": "taman_love",
+      "patterns": [
+        "taman love bandung",
+        "taman love soreang bandung",
+        "taman love di bandung",
+        "tiket taman love soreang",
+        "taman love di soreang",
+        "taman love"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Taman Love\n*Lokasi:* Kecamatan Soreang\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 10.000,- s/d Rp. 30.000,-\n\n*Profil Objek:* Taman Love berada di Jalan Cijengkol Selarwi, Sadu, Soreang, Kabupaten Bandung. Tempat wisata ini merupakan bagian dari Villa n’ Cafe De Dago’s Sadu yang ada di bukit kawasan Soreang. Disebut Taman Love karena awalnya taman ini punya spot foto berbentuk tanda hati. Kini keistimewaan Taman Love di Soreang ini adalah kolam renangnya yang berwarna-warni mirip warna aurora (fenomena langit berupa pendaran cahaya yang sangat indah). Sejenak menghabiskan malam di sana sambil ngopi, ditemani pemandangan kerlip lampu di Kota Bandung tentu jadi pilihan yang menarik.\n\n*Fasilitas (Saran dan Prasarana):* Fasilitas taman love yang kini semakin banyak dan bisa kamu nikmati, mulai dari cafe, kolam renang, tempat bermain anak, spot foto instagramable dan juga area parkir yang luas. Spot paling favorit untuk selfie adalah dua simbol hati yang dibentuk bunga-bunga berwarna ungu dan rerumputan hijau. Di sini ada pula replika pesawat yang bentang sayapnya mencapai 18 meter. Kursi-kursi juga disediakan di Taman Love yang menghadap langsung ke arah kota Bandung."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/TAMAN%20LOVE.png"
+    },
+    {
+      "tag": "barusen_hill",
+      "patterns": [
+        "barusen hill ciwidey",
+        "barusen hill bandung",
+        "tiket masuk barusen hill",
+        "barusen hill ciwidey bandung",
+        "barusen hill ciwidey 2018",
+        "barusen hill",
+        "barusen hills",
+        "barusen hill ciwidey tiket masuk"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Barusen Hill\n*Lokasi:* Kecamatan Pasirjambu\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 20.000,- s/d Rp. 30.000,-\n\n*Profil Objek:* Bandung Selatan dengan suasana sejuk dan dinginnya selalu menjadi pilihan untuk berlibur. Salah satunya Barusen Hills Ciwidey. Tempat wisata yang terletak di Ciwidey ini banyak dikunjungi oleh wisatawan.\n\nBarusen Hills fokus kepada wisata dengan pemandangan yang indah, sejuk, dan tempat berswafoto. Konsep taman serba love digabung dengan water park ini cocok untuk dijadikan tempat liburan dengan orang-orang terkasih. Letaknya cukup jauh dari kota sehingga terjamin keasrian dari lokasi pariwisata ini.\n\nBerbagai aktivitas bisa dilakukan di taman rekreasi keluarga yang terbilang lengkap ini. Mulai dari bermain air di water park, taman bunga yang indah,bersantai, sampai bermalam pun bisa. Berikut beberapa kegiatan yang bisa dilakukan.\n\n*Fasilitas (Saran dan Prasarana):* Tidak perlu khawatir dengan kenyamanan yang ada di Barusen Hills Ciwidey. Karena banyak fasilitas penunjang yang dapat dimanfaatkan. Diantaranya ada musala, toilet, kantin, area parkir, gazebo dan tempat penginapan"
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/BARUSEN%20HILL.png"
+    },
+    {
+      "tag": "palalangon_park",
+      "patterns": [
+        "Palalangon Park ciwidey",
+        "Palalangon Park bandung",
+        "tiket masuk Palalangon Park",
+        "Palalangon Park ciwidey bandung",
+        "Palalangon Park",
+        "Palalangon Park ciwidey tiket masuk"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Palalangon Park\n*Lokasi:* Kecamatan Pasirjambu\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Dewasa Rp. 30.000,- Anak-anak Rp. 15.000,-\n\n*Profil Objek:* Palalangon Park Ciwidey merupakan salah satu obyek wisata baru di Jawa Barat yang sedang hits dan menjadi destinasi menarik bagi wisatawan. Harga tiket masuk yang murah menjadi salah satu kelebihan, dimana terdapat wahana-wahana menarik yang tersaji di sana. Merupakan tempat wisata dengan konsep modern di Bandung. Meski banyak juga wisata hits di Bandung, tetapi Palalangon Park juga punya banyak peminat.\n\nSpot foto tak pernah ketinggalan untuk dihadirkan di wisata-wisata baru. Karena memang saat ini aktifitas hunting foto selfie memang sangat digemari. Di sana terdapat spot foto terbaik, antara lain: gardu pandang, balon udara, bingkai cinta,jembatan warna-warni, spot kapal, rumah hobbit,istana mini, sign board, taman bunga, dan masih banyak yang lainnya.\n\n*Rute dan Lokasi*\nBuat kamu yang belum tahu alamat wisata keren ini, lokasinya ada di Jalan Gambung, Dusun Cisondari, Desa Cibodas, Kecamatan Pasirjambu, Bandung, Jawa Barat. Untuk rute, dari Jalan Tol Soreang kemudian mengarah ke Jalan raya Ciwidey.Lokasinya tak jauh kok dari kawasan Situ Patenggang.\n\nTempat wisata ini buka setiap hari (senin sampai minggu) mulai pukul 07.30 sampai dengan pukul 18.00 WIB.\n\n*Fasilitas (Saran dan Prasarana):*\n- Kolam Renang Dewasa dan Anak\nBerenang di kolam menjadi aktifitas yang umum digemari. Untuk orang dewasa sudah ada kolam renang khusus, dengan kedalaman yang sudah sesuai standarisasi. Kamu bisa berenang sesuka hati di sana, apalagi ketika kondisi cuaca sedang panas-panasnya. Maka, kolam renang menjadi opsi yang tepat untuk menyegarkan badan.\n\n- Kolam Renang Air Panas\nMasih ada lagi kolam renang yang lain di lokasi tersebut dengan air hangat. Pastinya kamu dapat merasakan sensasi tersendiri dengan berendam di kolam ini. Terutama ketika suhu udara sedang dingin, maka kolam air hangat menjadi opsi menarik.\n\nWisata yang seru ini semakin lengkap dengan adanya fasilitas umum. Fasilits yang tersedia antara lain; area parkir kendaraan, gazebo, restoran, dan toilet. Ada juga area hiburan seperti karaoke. Jadi, bisa buatmu tak bosan dengan adanya nuansa musik. Bila kamu ingin membeli makanan, maka restoran di sana menyediakan aneka makanan khas Jawa Barat, seperti; nasiliwet, pepes, ikan bakar, ayam goreng, sop, tahu, tempe, dan lain sebagainya. Ada juga villa yang diperuntukkan bagi para pengunjung yang ingin bermalam di sana. Fasilitas di villa juga lengkap dengan suasana yang nyaman. Panorama alam disekitar villa juga sangat bagus."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/PALALANGON%20PARK.png"
+    },
+    {
+      "tag": "punceling_pass",
+      "patterns": [
+        "punceling pass bandung",
+        "punceling pass",
+        "punceling pass ciwidey",
+        "punceling pass camping ground & hot spring",
+        "punceling pass kab bandung",
+        "profil punceling pass bandung",
+        "profil punceling pass"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Punceling Pass\n*Lokasi:* Kecamatan Rancabali\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp. 20.000,-, Camping Rp. 25.000,-\n\n*Profil Objek:* Lokasinya bisa anda temukan sebelum anda menuju ke objek wisata Kawah Putih dan Situ Patenggang, dan tempat ini menawarkan eksotisme alam yang tidak kalah indah. Pemandangannya khas dataran tinggi pegunungan ciwidey yang masih alami dengan suasana yang masih sepi dan sunyi, semakin eksotis dengan suhu udara yang dingin.\n\nKawasan wisata Punceling sendiri berdiri di atas area seluas 3 hektare, dengan lingkungan didominasi hutan alam dan hutan Eucalypus.\n\nLokasinya berada dekat Kawah Putih,dan Perkebunan Teh Bandung Patuha dapat diakses hanya dengan jalan kaki sekitar satu jam dari arah Kawah Putih.\n\nPunceling Pass Ciwidey lokasinya berada di ketinggian 170 mdpl, kontur alamnya berbukit dengan pegunungan dengan Curah hujan 4.000mm/tahun, dengan suhu udara kawasan berada di kisaran 20–40 derajat celsius.\n\nObjek wisata punceling pass ciwidey bandung ini sangat cocok anda kunjungi bagi wisatawan yang bearasal dari perkotaan, dan membutuhkan tempat untuk refreshing dan rileksasi.\n\n*Fasilitas (Saran dan Prasarana):* Untuk memberikan kenyamanan kepada semua pengunjung yang datang ke Punceling Pass, di sini sudah tersedia banyak fasilitas wisata seperti; mulai dari Tempat Parkir, tempat kuliner berupa warung makan, tempat ibdah mushola, kemudian toilet dan kamar mandi dan yang lainnya."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/PUNCELING%20PASS.png"
+    },
+    {
+      "tag": "kawah_putih",
+      "patterns": [
+        "Apa itu Kawah Putih?",
+        "Tentang Kawah Putih",
+        "Ceritakan tentang Kawah Putih",
+        "kawah putih",
+        "kawah putih ciwidey",
+        "wisata kawah putih",
+        "wisata bandung kawah putih",
+        "kawah putih tiket",
+        "masuk kawah putih",
+        "tiket masuk kawah putih",
+        "kawah putih di bandung",
+        "kawah putih ciwidey bandung",
+        "harga tiket kawah putih",
+        "wisata ciwidey kawah putih",
+        "harga masuk kawah putih",
+        "harga tiket kawah putih",
+        "tiket kawah putih ciwidey"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Kawah Putih\n*Lokasi:* Kecamatan Rancabali\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp. 38.000,- (nusantara), Rp. 85.000,- (Manca Negara)\n\n*Profil Objek:* Kawah putih terletak di daerah Bandung selatan, setelah Ciwidey. Terletak kira-kira 50 KM dari pusat kota Bandung. Objek wisata Kawah Putih Bandung terletak di daerah Bandung selatan. Dikelilingi oleh kebun teh Walini yang indah dan terawat, disertai dengan suasana yang tenang dan segar amat memikat siapapun yang berlibur ke daerah ini.\n\n*Fasilitas (Saran dan Prasarana):* Cara menuju kawah putih cukup mudah, dan banyak terdapat rambu menuju ke sini. Jika dari Jakarta, anda cukup masuk ke tol cipularang dan keluar di gerbang tol Kopo. Dari sana belok kanan menuju ke arah soreang – ciwidey – ciwidey selatan. Jika menggunakan kendaraan umum, anda dapat menggunakan angkutan dari terminal leuwi panjang – terminal ciwidey, lalu disambung dengan angkot terminal ciwidey – situ patenggang, dan berhenti tepat di gerbang masuk kawah putih.\n\nSaat ini, untuk pengguna bis wisata dan motor diwajibkan untuk parkir di area parkir bawah, dan menuju ke lokasi kawah dengan menggunakanangkutan khusus ontang-anting berkapasitas 12 orang. Angkutan ini khusus mengangkut pengunjung dari parkir bawah sampai ke area kawah.\n\nJika menggunakan mobil pribadi, anda bisa langsung wisatawan parkir lokal di area parkir. Tiket Rp.38.000/orang masuk (terusan), wisatawan mancanegara Rp.85.000/orang, Mobil Rp.13.000, dan Foto Prewedding Rp.500.000. Parkir Blok A : Motor Rp.10.000, Mobil Rp.15.000, dan Bis Rp.25.000. Parkir Blok B khusus mobil Rp.30.000. ontang-anting Rp.30.000.\n\nFasilitas yang tersedia area parkir luas, angkutan khusus menuju lokasi, sarana toilet umum, musholla, cafe perhutani (area parkir bawah), dan warung dan restoran (area parkir bawah)."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/KAWAH%20PUTIH.png"
+    },
+    {
+      "tag": "wisata_alam_cihaniwung",
+      "patterns": [
+        "situ cihaniwung bandung",
+        "situ cihaniwung",
+        "cihaniwung pangalengan",
+        "cihaniwung kertasari",
+        "situ cihaniwung pangalengan",
+        "cihaniwung daerah mana",
+        "situ cihaniwung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Wisata Alam Cihaniwung\n*Lokasi:* Kecamatan Kertasari\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp. 10.000,-\n\n*Profil Objek:* Situ Cihaniwung merupakan sebuah objek wisata berupa sebuah situ atau danau kecil. Situ Cihaniwung disebut juga Situ Santosa karena berada di Desa Santosa dengan luas genangan kurang lebih 1,5 hektar.\n\nSitu Cihaniwung berada di sebelah barat Situ Cisanti yang merupakan titik nol kilometer Sungai Citarum.\n\nSitu Cihaniwung berada didataran tinggi pada ketinggian kurang lebih 1.627 Mdpl. Lokasi Situ Cihaniwung berada diantara hamparan perkebunan teh yang luas dan indah serta menyejukan.\n\n*Fasilitas (Saran dan Prasarana):* Spot Foto Menarik\nAda beberapa hal yang dapat dilakukan bagi para pengunjung Situ Cihaniwung diantaranya foto–foto diberbagai spot yang indah, menikmati indahnya perkebunan teh yang hijau dan luas baik sendiri, bersama keluarga, teman atau pasangan.\n\nFasilitas yang sudah tersedia di Situ Cihaniwung diantaranya area parkir, musholla, toilet, warung makan/kopi, spot foto (sunrise point & sunset point), wahana air sepeda kayuh, flaying fox, dan area camping."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/WISATA%20ALAM%20CIHANIWUNG.png"
+    },
+    {
+      "tag": "rancaupas",
+      "patterns": [
+        "rancaupas bandung",
+        "rancaupas",
+        "rancaupas ciwidey",
+        "kampung cai rancaupas",
+        "rancaupas ciwidey bandung",
+        "ranca upas bandung",
+        "rancaupas kab bandung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Rancaupas\n*Lokasi:* Kecamatan Rancabali\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp. 20.000,-\n\n*Profil Objek:* Tempat Wisata di Ciwidey ini berada di Jalan Raya Ciwidey, Patenggang KM 11, Desa Alam Endah, Ciwidey, Kabupaten Bandung. Wisata Kampung Cai Ranca Upas merupakan salah satu tempat wisata di Bandung yang memiliki pesona alam yang memukau. Berada di dataran tinggi di kawasan Bandung Selatan, tentu suasana di tempat ini sangat sejuk dan juga dingin. Ranca Upas Ciwidey adalah tempat wisata yang sangat luas. Areanya mencapai 215 hektar yang tentunya seluruhnya adalah ruang terbuka hijau yang sejuk.\n\nLokasi ini berada di ketinggian 1700 meter di atas permukaan laut, sehingga suhunya bisa mencapai 17 derajad celcius dan sangat sejuk. Selain itu, kawasan wisata ini juga merupakan hutan lindung di Kabupaten Bandung, yang menjadi tempat konservasi bagi berbagai jenis flora dan fauna. Flora langka yang ada di sana seperti Jamuju, Kihujan, Huru, Hamirug, dan Kitambang. Sedangkan untuk satwa yang ada di sana antara lain rusa dan beberapa jenis burung.\n\n*Fasilitas (Saran dan Prasarana):* Fasilitas Ranca Upas : Ranca Upas Smart Camp, Penangkaran Rusa Ranca Upas, Outbound RancaUpas, dan Pemandian Air Panas Kampung Cai.Untuk berwisata ke tempat ini, ada beberapa harga tiket yang perlu untuk diketahui, yaitu sebagai berikut : Buggle Trampoline Rp.15.000, BurmaV Rp.15.000, Ekstra Bed Rp. 70.000, Elvis Bridge Rp.15.000,-\n\nFlying Fox Rp.15.000, Funs Games Rp.47.000, Jembatan Goyang Rp.15.000, Kolam Renang Rp.15.000, Paint Ball Rp.90.000, Sepeda Gunung Rp.10.000, Sewa Tenda Peleton Rp.600.000 40 Orang, Tenda Charly Rp.150.000 2 – 3 Orang, Tenda Charly Rp.300.000 5 – 7 Orang, Tenda Panggung Rp.700.000, Tenda Pesta Rp.600.000,Tenda regu Rp.350.000 20 Orang, Tenda Roovi Rp.350.000 12 Orang, dan Tenda Vango Rp.350.000 10 Orang."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/RANCAUPAS.png"
+    },
+    {
+      "tag": "patuha_resort",
+      "patterns": [
+        "patuha resort bandung",
+        "patuha resort",
+        "patuha resort ciwidey",
+        "patuha ciwidey",
+        "patuha ciwidey bandung",
+        "patuha resort kab bandung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Patuha Resort\n*Lokasi:* Kecamatan Rancabali\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Penginapan:* Rp500.000 - Rp1.500.000 per malam\n\n*Profil Objek:* Patuha Resort terletak di kaki Gunung Patuha. Hampir semua villa menawarkan pemandangan langsung ke arah perbukitan. Villa di Patuha Resort dihiasi interior kayu dengan tipe rumah panggung yang terlihat etnik. Ada banyak tipe cottage yang tersedia seperti Villa Meranti dan VillaJati yang dilengkapi dua kamar tidur, ruang tamu, bale-bale untuk bersantai, ruang keluarga dan dapur.\n\nBeberapa lokasi wisata yang ada di Ciwidey letaknya saling berdekatan dan tidak jauh dari lokasi Patuha Resort., antara lain Kawah Putih, Rancaupas, Situ Patenggang. Nama Patuha diambil dari pegunungan Patuha yang mengelilingi daerah Ciwidey dengan ketinggian 2.434m di atas permukaan laut. Patuha Resort pernah dijadikan tempat karantina mojang jajaka Kabupaten Bandung dan sering menjadi lokasi rapat perusahaan serta digunakan universitas untuk karantina mahasiswa baru. PATUHARESORT adalah penginapan dengan konsep back to nature di daerah Ciwidey. Lokasinya cukup strategis karena berdekatan dengan lokasi wisata Kawah Putih dan objek wisata lainnya di Ciwidey.\n\n*Fasilitas (Saran dan Prasarana):*\nJarak: 40 km dari Kota Bandung, 22km dari Soreang\nAkses: Melalui Tol Cileunyi – exit Tol Kopo – Soreang – Ciwidey. Atau tidak dilalui akses angkutan umum\nFasilitas: Villa & Pondokan, Kolam renang air panas, Restoran, Meeting Room, Kebun strawberry, Tempat Parkir, Free Wi-Fi."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/PATUHA%20RESORT.png"
+    },
+    {
+      "tag": "villa_rancabali_tea_resort",
+      "patterns": [
+        "Villa Rancabali Tea Resort bandung",
+        "Villa Rancabali Tea Resort",
+        "Villa Rancabali Tea Resort ciwidey",
+        "Rancabali Tea Resort",
+        "Rancabali Tea Resort ciwidey",
+        "Villa Rancabali Tea Resort kab bandung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Villa Rancabali Tea Resort\n*Lokasi:* Kecamatan Rancabali\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Sewa Villa:* Rp. 600.000,-\n\n*Profil Objek:* Villa Rancabali Tea Resort dengan kolam renang air panas, pemandangan kebun teh, & suhu yang sejuk di Ciwidey Bandung. Villa di Rancabali Tea Resort memiliki penginapan villa dan rumah yang asri ditengah pemandangan kebun teh Ciwidey yang bersuhu sejuk dan nyaman diantaranya Villa Kidang Kencana, Ciung Wanara, Rumah Dungus Wangi, Rumah Kayu, Rumah Cottage, dan Villa Patenggang serta tempat pertemuan Aula Dungus Sari. Lokasi villa berada di perkebunan teh lereng Gunung Patuha Ciwidey Bandung dan sangat dekat dengan tempat-tempat wisata alam yang patut dikunjungi yaitu Pemandian Air Panas Ciwalini/Cimanggu, Kawah Putih, Ranca Upas, Situ Patenggang, Glamping Lakeside, Phinisi Resto, Teras Bintang dsb.\n\n*Fasilitas (Saran dan Prasarana):* Fasilitas seluruh villa tersedia TV, kamar mandi air hangat, ruang tidur, dapur dan perlengkapannya, ruang tamu, teras, kolam renang air panas dan taman cantik."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/VILLA%20RANCABALI%20TEA%20RESORT.png"
+    },
+    {
+      "tag": "walini",
+      "patterns": [
+        "WALINI (Pemandian Air Panas)",
+        "walini bandung",
+        "walini ciwidey",
+        "walini ciwidey bandung",
+        "pemandian air panas walini",
+        "tiket masuk walini"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Walini (Pemandian Air Panas)\n*Lokasi:* Kecamatan Rancabali\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp 20.000,-\n\n*Profil Objek:* Berada di ketinggian 700 mdpl, kebun teh yang satu ini memang nggak sebeken Rancabali. Namun, perkebunan yang dikenal sebagai penghasil tehcelup Walini ini menawarkan lanskap alam yang cantik.\n\nDibalut dengan atmosfer tenang danu dara yang sejuk, Kebun Teh Walini dikelola langsung oleh PT Perkebunan Nusantara VIII. Mudah diakses dari kawasan Kawah Putih, Kebun Teh Walini punhadirdengan panorama alam yang menenangkan hati.\n\nDengan latar belakang Gunung Tangkuban Perahu, Kebun Teh Walini cocok buat kamu yang hobi berburu foto yang instagrammable. Bahkan, paracalon pengantin kerap menggunakan kebun teh yang satu ini sebagai lokasi foto pre-wedding mereka.\n\nSuasana yang asri menjadi obat penghilang stress tersendiri buat kamu. Khususnya yang datang dari kota-kota besar seperti Jakarta atau bahkan Bandung\n\nJika lelah, kamu bisa langsung berendam! Nggak jauh dari lokasi kebun, terdapat Pemandian Air Panas Walini yang cukup terkenal di kalangan wisatawan\n\nMengambil mata air dari Gunung Patuha,Pemandian Air Panas ini langsung dikelilingi oleh perkebunan teh. Jadi, suasana nyaman dan hangatpun sangat ketara saat berendamdi sini, lho.\n\nKualitas air yang jernih serta kandungan belerang yang ringan berguna untuk kesehatan kamu. Selain dapat meredakan stress di kepala, air alami di sini dipercaya memiliki kemampuan untuk mengusir berbagai penyakit dan sebagai hidroterapi penyembuhan luka dalam.\n\n*Fasilitas (Saran dan Prasarana):* Pemandian Air Panas Walini menawarkan berbagai macam fasilitas. Mulai dari kolam rendam, water boom hingga kolam balita yang dipisahkan oleh dua kolam besar"
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/WALINI%20(Pemandian%20Air%20Panas).png"
+    },
+    {
+      "tag": "glamping_lakeside",
+      "patterns": [
+        "glamping",
+        "lakeside",
+        "lakeside glamping",
+        "rancabali glamping",
+        "rancabali lakeside",
+        "lakeside rancabali",
+        "ciwidey glamping",
+        "lakeside ciwidey",
+        "glamping bandung",
+        "ciwidey glamping lakeside rancabali",
+        "glamping lakeside ciwidey bandung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Glamping Lakeside\n*Lokasi:* Kecamatan Rancabali\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 25.000,- s/d Rp. 50.000,-\n\n*Profil Objek:* Glamping Lakeside adalah sebuah kawasan Resort di Ciwidey yang baru dengan fasilitas wisata lengkap yang ada di dalamnya. Objek wisata di ciwidey ini baru bisa jadi mulai dikenal oleh umum pasca soft openingnya salah satu fasilitas restonya tepat pada tanggal 7 juli 2016 yang barulalu.Lokasinya yang berada di paling ujung ciwidey, tepatnya berada di salah satu Tempat Wisata alam di bandung yang terkenal yakni Situ Patenggang, Alamat tepatnya yaitu berlokasi di Jalan Situ Patengan, Desa Patengan, Rancabali, Ciwidey, Kabupaten Bandung, Jawa Barat. Akses rute jalan menuju lokasinya ini sangat mudah untuk dijangkau, baik dengan kendaraan umum apalagi dengan kendaraan pribadi.\n\n*Fasilitas (Saran dan Prasarana):* Fasilitas yang tersedia di Glamping Lakeside rancabali ciwidey bandung selatan ini terbilang sangat lengkap, meskipun masih ada pembangunan beberapa fasilitas wisata lainnya."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/GLAMPING%20LAKESIDE.png"
+    },
+    {
+      "tag": "kampung_batu_malakasari",
+      "patterns": [
+        "kampung batu malakasari bandung",
+        "kampung batu malakasari",
+        "kampung batu malakasari baleendah",
+        "kampung batu malakasari banjaran",
+        "kampung batu malakasari ecopark",
+        "kampung batu malakasari bandung jawa barat",
+        "kampung batu malakasari baleendah bandung",
+        "kampung batu malakasari bandung indonesia",
+        "kampung batu malakasari ecopark bandung, jawa barat"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Kampung Batu Malakasari\n*Lokasi:* Kecamatan Baleendah\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp.50,000,-\n\n*Profil Objek:* Alamatnya adalah Jalan Raya Banjaran(Rencong), Desa Malakasari, Kecamatan Baleendah, Kabupaten Bandung. Tersedia beberapa kolam pilihan seperti toots pool untuk para balita bermainair, kids pool untuk anak-anak dan semi olimpic bagi yang dewasa atau sudah mahir berenang. Terdapat pula kolam arus yang akan membawa anda bersantai di atas air yang berarus mengelilingi area waterpark dan juga kolamom bak layaknya berenang di pantai.\n\n*Fasilitas (Saran dan Prasarana):* Untuk fasilitas pendukung cukup lengkap seperti kamar bilas dan ganti, food court, klinik kesehatan dan area parkir yang cukup luas."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/KAMPUNG%20BATU%20MALAKASARI.png"
+    },
+    {
+      "tag": "kolam_renang_alhayu",
+      "patterns": [
+        "Kolam Renang Al-Hayu",
+        "kolam renang al hayu baleendah",
+        "kolam renang alhayu",
+        "kolam renang al hayu baleendah bandung",
+        "kolam renang al hayu kab bandung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Kolam Renang Al Hayu\n*Lokasi:* Kecamatan Baleendah\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 25.000,- s/d Rp. 30.000,-\n\n*Profil Objek:* Berwisata air memang selalu menjadi daya tarik untuk menghabiskan liburan bersama orang-orang terdekat. Telah hadir di Kabupaten Bandung Selatan, tepatnya di samping pasar Baleendah. Objek wisata air Kolam Renang Al Hayu saat ini tengah menjadi primadona.\n\n*Fasilitas (Saran dan Prasarana):*\nBeberapa fasilitas yang ada di Kolam Renang Al Hayu ini antara lain:\nBeberapa kolam renang dengan kedalaman berbeda mulai dari 30 cm hinga 2 m sehingga dapat digunakan oleh anak-anak maupun orang dewasa\n- Mini waterboom\n- Ember tumpah\n- Aneka perosotan\n- Playground\n- Spot selfie\n- Taman bermain anak\n- Area lesehan, bisa untuk ngaso atau bersantai sambil mengawasi anak-anak yang sedang berenang. Area lesehan ini bahkan beralaskan rumput sintetis sehingga akan membuat Anda lebih nyaman."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/KOLAM%20RENANG%20ALHAYU.png"
+    },
+    {
+      "tag": "kolam_renang_tirta_mulya",
+      "patterns": [
+        "kolam renang cimahi tirta mulya",
+        "tirta mulya cimahi",
+        "tiket kolam renang tirta mulya",
+        "harga tiket kolam renang tirta mulya",
+        "tiket masuk kolam renang tirta mulya",
+        "kolam renang tirta mulya",
+        "kolam renang tirta mulya bandung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Kolam Renang Tirta Mulya\n*Lokasi:* Kecamatan Banjaran\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 35.000,-\n\n*Profil Objek:* Kolam renang tirta mulya satu diantara wahana air yang begitu pas untuk berlibur dengan keluarga serta teman dekat. kolam yang luas serta wahana yang seru buat pengunjung begitu suka terlalu lama bermain air disini. Di sekitaran kolam renang ini banyak ada patung berkarakter dengan hiasan air mancur yang dapat buat anak anda kerasa bermain air sepanjang hari. serta tetaplah mesti diingat supaya menjaga anak agar kecerian anak waktu nikmati wahana tidak terganggu.\n\nSarana serta wahana kolam renang tirta mulya cimahi bandung barat yang seru serta mengasyikkan karna di kolam renang ini ada 4 seluncuran bergelombang serta sejajar dengan ketinggian yang dapat menantang adrenalin anda. Bermain seluncuran bersamaan dengan keluarga, teman dekat maupun rekan begitu mengasikan. Kolam dewasa yang teduh dengan tertutup kanopi yang serupa kolam renang indoor begitu nyaman sekali untuk belajar berenang serta olahraga air disini.\n\nKolam keluarga yang luas buat pengunjung dapat leluasa untuk bermain dengan anak serta yang lain, di lebih dengan adanya banyak permainan seru serta mengasyikkan seprti plosotan mini serta yang lain. accessories pinggir kolam denang ciri-khas lucu yang keluarkan air mancur jadi favorite buat anak. Kolam anak ada juga dengan kedalaman sekitaran 40 cm dapat buat anak anda bermain sepuasnya dengan pengawasan orangtua pastinya.\n\n*Fasilitas (Saran dan Prasarana):* Sarana kamar basuh, kamar ganti serta tempat makan dengan menu yang dapat menggoyang lidah ada di sini dengan harga terjangkau."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/KOLAM%20RENANG%20TIRTA%20MULYA.png"
+    },
+    {
+      "tag": "waterboom_cahaya_abadi",
+      "patterns": [
+        "Waterboom Cahaya Abadi banjaran",
+        "Waterboom Cahaya Abadi",
+        "tiket Waterboom Cahaya Abadi",
+        "harga tiket Waterboom Cahaya Abadi",
+        "tiket masuk Waterboom Cahaya Abadi",
+        "Waterboom Cahaya Abadi bandung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Waterboom Cahaya Abadi\n*Lokasi:* Kecamatan Banjaran\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 30.000,-\n\n*Profil Objek:* Waterboom Cahaya Abadi - sebuah tempat berenang sekaligus tempat wisata keluarga yang berada di Banjaran ini sekarang lagi hits dan populer di Bandung terutama masyarakat Banjaran.\n\nTempat berenang waterboom yang dekat dengan lokasi sekitar Banjaran ini selalu ramai dikunjungi setiap hari terutama saat libur akhir pekan atau liburan panjang. Tiket masuk Waterboom Cahaya Abadi terbilang cukup murah sangat terjangkau oleh kalangan menengah kebawah.\n\nKolam renang Waterboom Cahaya Abadi menjadi alternatif pilihan bagi warga Bandung Selatan yang mencari tempat rekreasi terdekat. Waterboom Cahaya Abadi juga terkenal dengan sebutan Villa Buaya karena selain tempat berenang tempat ini juga menyediakan vila penginapan untuk pengunjung.\n\n*Fasilitas (Saran dan Prasarana):* Dengan luas sekitar 1,5 Hektar tempat memiliki fasilitas yang cukup lengkap seperti kolam renang khusus anak dan dewasa, Saung lesehan,Taman, Tempat bermain anak, vila penginapan, Kanting, Mushola, Ruang Kesehatan dan memiliki tempat parkir yang luas. Lokasi Waterboom Cahaya Abadi berada di Jalan Pahlawan Kampung Dangdeur Desa Kiangroke Banjaran Kabupaten Bandung."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/WATERBOOM%20CAHAYA%20ABADI.png"
+    },
+    {
+      "tag": "gunung_puntang",
+      "patterns": [
+        "gunung puntang bandung",
+        "puntang bandung",
+        "wisata gunung puntang",
+        "gunung puntang",
+        "bougenville gunung puntang",
+        "puncak gunung puntang",
+        "gunung puntang banjaran",
+        "villa gunung puntang",
+        "gunung puntang jawa barat"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Gunung Puntang\n*Lokasi:* Kecamatan Cimaung\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp. 5.000/orang s/d Rp. 25.000,-\n\n*Profil Objek:* Bumi perkemahan Gunung Puntang berada Jalan Gunung Puntang, Desa Campaka Mulya, Kecamatan Cimaung, Kabupaten Bandung. Jalan Gunung Puntang tidak jauh dari Banjaran. Jalan ini berada di sebelah kiri dari arah Banjaran jika mau ke Pangalengan. Gunung Puntang juga dikenal dengan nama Bumi Perkemahan Gunung Puntang, objek wisata alam Bandung satu ini juga menjadi tempat perkemahan. Gunung Puntang sendiri memiliki ketinggian 2223 mdpl, sedangkan kawasan bumi perkemahan berada di ketinggian sekitar 1300 mdpl, yang menjadikan udara dikawasan Bumi Perkemahan sangat sejuk dan segar.\n\nSelain itu terdapat juga air terjun siliwangi yang menambah daya tarik dari Bumi Perkemahan Gunung Puntang, ditambah lagi tepat didepan bekas reruntuhan stasiun radio belanda terdapat sebuah kolam besar bernama kolam cinta, karena kolam tersebut memiliki bentuk 'LOVE'. Di kawasan Gunung Puntang juga terdapat Goa Belanda yang memiliki panjang sekitar 20 meter.\n\n*Fasilitas (Saran dan Prasarana):*\nFasilitas : WC Tempat parkir Fasilitas penunjang kegiatan outdoor Penginapan Masjid/Mushola dan masih banyak lainnya. Akomodasi (Penginapan) Selain berkemah, Gunung Puntang juga menyediakan villa-villa yang bisa kitasewa, villa tersebut berkonsep pondok penginapan dengan harga kisaran Rp.150.000 - Rp.200.000/malam.\n\nAkses menuju tempat tujuan tidaklah sulit, lokasinya yang cukup strategis menjadikan mudah menjangkaunya. Dari pusat Kota Bandung menuju arah Banjaran, setelah sampai di Banjaran, perjalanan dilanjutkan menuju arah Pangalengan. Sekitar 5 km dari Pangalengan terdapat plang petunjuk jalan menuju objek wisata Gunung Puntang, belok kiri (mengikuti plang) dari jalan Banjaran-Pangalengan di km+/- 5 km menuju arah Gunung Puntang. Transportasi Umum bisa naik angkot dengan tujuan akhir Soreang atau Dayeuh Kolot. Setelah itu perjalanan dilanjutkan lagi dengan naik angkutan lokal yang menuju kearah Cimaung dan turun di Bumi Perkemahana Gunung Puntang."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/Gn%20PUNTANG.png"
+    },
+    {
+      "tag": "kolam_renang_cimenteng",
+      "patterns": [
+        "Kolam Renang Cimenteng banjaran",
+        "kolam renang cimenteng bandung",
+        "wisata Kolam Renang Cimenteng",
+        "Renang Cimenteng"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Kolam Renang Cimenteng\n*Lokasi:* Kecamatan Banjaran\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 20.000,-\n\n*Profil Objek:* Kolam renang cimenteng bandung ini selain tidak jauh dari kota Banjaran juga lokasi kolam renang ini tergolong tempat yang enak untuk acara keluarga, lokasinya luas, wahana teredia lumayan banyak dan bisa memilih kolam karena terdiri untuk anak, dewasa dan remaja dan juga tempatnya adem banget, karena di sekitaran kolam renang tumbuh beberapa pohon cemara yang membuat siapapun nyaman di buatnya.\n\nFasilitas yang ada di sekitaran Cimenteng Banjaran Kabupaten Bandung:\n- Kolam Renang\n- Ember Tumpah\n- Pemancingan Ikan\n- Tempat Khusus Adu Ketangkasan Domba\n- Penginapan\n\n*Fasilitas (Saran dan Prasarana):*\nFasilitas Kolam Renang Cimenteng Banjaran:\n- Kantin\n- Ayunan untuk main anak-anak\n- Tempat Istirahat\n- Ruang Ganti\n- Tempat Parkir"
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/KOLAM%20RENANG%20CIMENTENG.png"
+    },
+    {
+      "tag": "cibolang",
+      "patterns": [
+        "Cibolang Air Panas",
+        "Cibolang Air Panas bandung",
+        "wisata Cibolang Air Panas",
+        "Cibolang pemandian Air Panas",
+        "cibolang pangalengan",
+        "pemandian air panas cibolang",
+        "cibolang pemandian air panas pangalengan"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Cibolang (Air Panas)\n*Lokasi:* Kecamatan Pangalengan\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 20.000 (Reguler), Rp. 30.000 (VVIP)\n\n*Profil Objek:* Kawasan Wana Wisata Pemandian Air Panas Cibolang dengan luas 4,9 Ha terletak di RPH Wayang Windu, BKPH Pangalengan, KPH Bandung Selatan. Secara administratif terletak di desa Wayang Windu Kecamatan Pangalengan, Kabupaten Bandung. Pemandian Air Panas Cibolang masuk dalam Wana Wisata. Wana Wisata adalah Obyek Wisata yang berada di kawasan hutan produksi dan hutan lindung yang dikelola oleh Perum Perhutani. Berada pada ketinggian 1450 mdpl, curah hujan 4000 mm/th dengan suhu udara 23°–25° C.\n\nMemiliki pemandangan yang sangat indah karena memiliki perpaduan antara perkebunan teh dan pegunungan. Sumber air panas Wana Wisata Cibolang berasal dari Gunung Windu. Airpanas yang keluar dari sumber air panas berkisar 40°-46° C. Berdasarkan hasil penelitian, kandungan air panas tidak berbahaya dan aman untuk kesehatan. Air panas yang keluar dari sumber air panas didinginkan secara alami dengan kolam pendingin sebelum dialirkan ke kolam-kolam pemandian. ada Wana Wisata Cibolang, selain sumber air panas juga memiliki potensi wisata alam lain yaitu kawah burung. Kawah Burung berada di Gunung Windu, Merupakan kawah yang mengeluarkan asap dan memiliki kandungan belerang yang tinggi.\n\n*Fasilitas (Saran dan Prasarana):* Wana Wisata Pemandian Air Panas Cibolang yang sudah ada sejak tahun 1986 ini memiliki fasilitas yang sudah cukup lengkap. Fasilitas yang terdapat pada Wana Wisata Pemandian Air Panas Cibolang:\n- Kolam Renang Air Panas, Kolam Pancing, Kolam Ngagogo, Kamar Rendam Air Panas\n- Penginapan\n- Bale Kambang\n- Flying Fox\n- MCK & Kamar Ganti\n- Kios Dagang dan Penyewaan Peralatan Renang dan Pancing."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/CIBOLANG%20(Air%20Panas).png"
+    },
+    {
+      "tag": "malabar",
+      "patterns": [
+        "malabar",
+        "Malabar bandung",
+        "teh Malabar",
+        "kebun teh Malabar",
+        "Malabar pangalengan"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Malabar\n*Lokasi:* Kecamatan Pangalengan\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp. 20.000 (Reguler), Rp. 30.000 (VVIP)\n\n*Profil Objek:* Salah satu perkebunan teh yang cukup terkenal di Jawa Barat adalah perkebunan teh Malabar yang dibangun pada masa penjajahan kolonial Belanda tahun 1896. Perkebunan ini masuk dalam wilayah kecamatan Pangalengan Kabupaten Bandung, kira-kira 45 km dari pusat Kota Bandung. Lokasi di wilayah Bandung Selatan, tepatnya di Malabar Pangalengan, Kabupaten Bandung. Perkebunan teh Malabar merupakan perkebunan teh yang luas dengan hamparan hijau tanaman teh bagai hamparan permadani hijau. Dengan luas wilayah sekitar 2.022 hektar.\n\nTerdapat Makam Karel Rudolf Bosscha, Museum & Wisma Karel Rudolf Bosscha, dan Pabrik Teh Malabar.\n\n*Fasilitas (Saran dan Prasarana):* -"
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/MALABAR.png"
+    },
+    {
+      "tag": "situ_cileunca",
+      "patterns": [
+        "situ cileunca",
+        "wisata situ cileunca",
+        "pangalengan situ cileunca",
+        "situ cileunca bandung",
+        "situ cileunca pangalengan bandung",
+        "situ cileunca camping",
+        "tiket masuk situ cileunca"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Situ Cileunca\n*Lokasi:* Kecamatan Pangalengan\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Orang Dewasa Rp. 5.000/orang, Anak-anak Rp. 2.500/ orang\n\n*Profil Objek:* Situ Cileunca merupakan danau buatan yang dibangun Belanda hingga tahun 1926. Danau ini dibuat untuk keperluan pembangkit listrik tenaga air atau PLTA. Energi listrik yang dihasilkan PLTA tersebut digunakan untuk keperluan energi listrik pabrik teh dan sebagian keperluan energi listrik warga Kota Bandung pada zaman penjajahan Belanda. Seiring berjalannya waktu, danau buatan ini bertransformasi menjadi objek wisata karna menyajikan panorama alam yang luar biasa indahnya. Satu lagi yang membuat menarik Situ Cileunca adalah keberadaan Jembatan Cinta.\n\n*Fasilitas (Saran dan Prasarana):*\nKarcis Tanda Masuk:\nMobil/Bus Rp.4.000, dan Motor+Pengendara Rp. 12.000.\n\nBiaya Outbond:\nFlyingfox Rp. 35.000, Painball (40peluru) Rp. 90.000, Panahan Rp. 45.000, Team building Games Rp. 100.000 (min. 20 orang). Biaya Rafting Pangalengan untuk satu kali perjalanan sebesar Rp. 185.000,- / orang. Harga tersebut sudah termasuk biaya perahu, pemandu, P3K, transportasi lokal, konsumsi, dan pemandu.\n\nPaket Makan:\nHarga Paket Rp. 25.000 - Rp. 35.000, Rebusan/Gorengan Rp. 15.000.\nFasilitas berupa perahu kayu yang dilengkapi dengan mesin harga yang ditawarkan untuk perahu ini sekitar Rp. 75.000 setiap perahunya dan dapat diisi sekitar 10 orang.\n\nBerkunjung di Situ Cileunca lalu ingin mencoba wahana lainnya seperti arung jeram dan outbound, tidak bisa membutuhkan waktu 1 hari saja, sehingga disarankan untuk menginap atau populer dengan sebutan camping.\n\nTransportasi Menuju Wisata Alam Situ Cileunca Pangalengan.\nKendaraan Pribadi:\nJarak dari pusat Kota Bandung ke lokasi Wisata Alam Situ Cileunca Pangelangan berjarak sekitar 45 km dan bisa ditempuh dengan waktu sekitar 2 jam."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/SITU%20CILEUNCA.png"
+    },
+    {
+      "tag": "wayang_windu",
+      "patterns": [
+        "wayang windu",
+        "pangalengan wayang windu",
+        "wisata wayang windu",
+        "wayang windu bandung",
+        "wisata wayang windu pangalengan",
+        "wayang windu bike park",
+        "wayang windu pangalengan bandung",
+        "wayang windu tiket masuk",
+        "tempat wisata wayang windu",
+        "wayang windu panenjoan"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Wayang Windu\n*Lokasi:* Kecamatan Pangalengan\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp. 10.000,-\n\n*Profil Objek:* Wayang Windu Panenjoan merupakan salah satu tempat wisata yang dikelola warga asli daerah Kertamanah, Pangalengan. Letaknya ada di Kebun Teh Kertamanah yang memiliki luas mencapai 13 hektar dan berada di ketinggian 1.800 meter di atas permukaan laut (mdpl).\n\nWayang Windu Panenjoan menawarkan wisata alam dengan panorama indah perkebunan teh di segala penjuru. Kata “panenjoan” sendiri, kata Deru, artinya adalah selayang pandang. Jam operasional Wayang Windu Panenjoan adalah setiap hari pukul 06.00-18.00 WIB. Namun jika kamuingin berwisata ke sana pada malam hari sambil berburu foto milkyway, pengelola masih bisa melayani. Ada banyak aktivitas wisata yang bisa dilakukan di sini. Para pengunjung tentu saja bisa menikmati suasana asri Pangalengan yang begitu sejuk. Pengunjung bisa berakselerasi segala macam.\n\nBeberapa yang ikonik adalah menara pandang tinggi yang terbuat dari kayu. Dari sana kamu bisa melihat pemandangan Pangalengan dari ketinggian sekaligus berfoto dengan latar belakang alam yang hijau.\n\n*Fasilitas (Saran dan Prasarana):* Wayang Windu Panenjoan memang punya fasilitas yang cukup lengkap. Mereka memiliki toilet, mushola, hingga gazebo yang biasa digunakan untuk acara-acara pengunjung bersama keluarga atau teman."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/WAYANG%20WINDU.png"
+    },
+    {
+      "tag": "cukul_sunrise_point",
+      "patterns": [
+        "sunrise point cukul",
+        "sunrise point cukul bandung",
+        "sunrise point cukul pangalengan",
+        "cukul pangalengan"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Cukul Sunrise Point\n*Lokasi:* Kecamatan Pangalengan\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp. 10.000,-\n\n*Profil Objek:* Bandung punya spot baru yang keren banget. Bernama Cukul Sunrise Point, tempat ini jadi spot sunrise terbaik di Pangalengan. Obyek wisata yang ada di Selatan Bandung ini masih tergolong baru, kelebihannya menyuguhkan lanskap pemandangandan sensasi yang luar biasa bagi siapa saja yang mengunjunginya.\n\nBetapa tidak, di obyek wisata yang berada di atas ketinggian 1.600 mdpl ini, kita bisa menyaksikan terbitnya matahari yang menyembul dibalik Gunung Wayang dihiasi oleh awan dan kabut tebal.\n\nUntuk sampai ke obyek wisata yang satu ini,dibutuhkan tiga jam perjalanan dari pusat Kota Bandung via Tol Soreang Pasir koja (Soroja). Perjalanan di lanjutkan ke jalan alteri menuju arah Banjaran-Cimaung-Pangalengan. Perjalanan akan sedikit terhambat karena banyak kendaraan umum yang melintas di jalan tersebut\n\nJika telah sampai di Bundaran Pangalengan, ambil arah kanan menuju Situ Cileunca, dibutuhkan waktu selama 15 menit dari Situ Cileunca menuju Cukul Sunrise Point. Tidak perlu khawatir, nanti juga di pinggir jalan, kita akan menemukan papan petunjuk menuju obyek wisata ini.\n\nObyek wisata yang menyuguhkan sunrise ini baru dibangun enam bulan ke belakang, dan pengelolaannya dikelola oleh warga sekitar dan bekerjasama dengan PTPN VIII. 'Baru dibuka sekitar 6 bulan, belum lama. Dikelola oleh wargasekitar, pemasukannya (dibagi dua) dengan PTPN VIII,'ungakapnya. Sebelumnya obyek wisata ini hanyalah bukit dan perkebunan teh biasa. Menurutnya,karena memiliki potensi wisata yang sangat bagus, warga sekitar mengubah bukit kebun teh yang sebelumnya dipenuhi rumput liar menjadi bukit yang diubah sedemikian rupa untuk melihat pemandangan hamparan perkebunan teh.'Pemandangan di sini, kalau pagi bisa melihat pemandangan sunrise, siang ke sorenya kita bisa lihat panorama alam Kebun Teh Cukul,' ujarnya\n\n*Fasilitas (Saran dan Prasarana):* Spot Foto."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/CUKUL%20SUNRISE%20POINT.png"
+    },
+    {
+      "tag": "caringin_tilu",
+      "patterns": [
+        "caringin tilu bandung",
+        "caringin tilu",
+        "dapur caringin tilu",
+        "cartil",
+        "cartil bandung",
+        "profil cartil bandung",
+        "profil caringin tilu",
+        "profil caringin tilu bandung",
+        "deskripsi cartil bandung",
+        "deskripsi caringin tilu bandung",
+        "deskripsi caringin tilu"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Caringin Tilu\n*Lokasi:* Kecamatan Cimeunyan\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Gratis\n\n*Profil Objek:* Tempat Wisata Di Bandung yang satu ini adalah sebuah kawasan di Bandung Timur, Cartil adalah sebutan lain untuk daerah yang menyimpan sejuta pesona dari potensi wisata alam yang terdapat di Bandung. Caringin Tilu adalah salah satu alternatif terbaik tujuan berwisata anda dan keluarga, yang senang dengan suasana alam pegunungan yang khas yaitu eksotis ( Indah pemandanganya, Dingin udaranya dan romantis suasananya ) Cartil pun memiliki daya tarik serta pesona tersendiri akan keindahan wisata alamnya dengan terbentangnya pegunungan yang tampak menghampar, dan terhubung antara yang satu dengan yang lainnya, serta berundak undak.\n\nSehingga bagi para penyuka ketenangan di alam terbuka pegunungan, Caringin tilu bisa dijadikan tempat liburan pasangan juga anda bersama keluarga atau teman,sebagai tempat untuk refreshing dan rileksasi dari berbagai persoalan hidup dan rutinitas kerja sehari-hari.\n\nKeindahan kota Bandung memang adalah nilai jual wisata yang ditawartkan Caringin Tilu bagi siapa pun yang berkunjung ke tempat ini. Pelancong atau wisatawan bisa melihat dengan jelas begitu cantik dan indah pemandangan Kota Bandung jika dilihat tempat ini.\n\nTerlebih jika anda mengunjungi tempat ini pada saat malam hari, maka eksotisme alam berupa kerlap-kerlip gemerlapnya lampu di kejauhan, yang menjadi sarana penerangan kota Bandung akan terlihat bak seperti zamrud yang bercahaya di tengah gelapnya cekungan Paris Van Java.\n\n*Fasilitas (Saran dan Prasarana):*\n- Dapur Caringin Tilu\n- Penginapan\n- Cottage (Bukit Saung Bambu)\n- Spot Foto"
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/CARINGIN%20TILU.png"
+    },
+    {
+      "tag": "kramat_gantung",
+      "patterns": [
+        "kramat gantung bandung",
+        "Kramat Gantung",
+        "Kramat Gantung paseh",
+        "wisata Kramat Gantung",
+        "wisata alam Kramat Gantung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Kramat Gantung\n*Lokasi:* Kecamatan Paseh\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* -\n\n*Profil Objek:* Tempat yang berada di Desa Karang Tunggal, Kecamatan Paseh Kabupaten Bandung, tepatnya 12 kilometer dari arah Jalan Cagak, Cicalengka–Warung Peuteuy. Meskipun tidak mudah dijangkau, hanya mampu dilalui menggunakan Jeep Off Road melalui mulut Hutan Lindung Selasih yang berada di KRPH Ciparay. Atau dapat ditempuh. Menurut masyarakat setempat, objek wisata Karang Gantungan bukan saja bisa dinikmati sebagai tempat wisata alam. Tetapi juga diyakini menyimpan kekuatan keramat dengan adanya situs peninggalan Kerajaan Saunggalah. Untuk bisa tiba di situs tersebut, dari pintu masuk, pengunjung harus berjalan kaki secara menanjak sekira 300 meter.\n\nDi kawasan seluas 3 hektar ini, terdapat sebuah batu besar yang dicengkeram akar-akar beringin yang menjuntai. Sebelum sampai di lokasi, akan ditemui batu-batu besar berserakan yang sebelahnya mengalir sungai-sungai kecil. Di kirikanan jalan terdapat berbagai jenis pohon seperti pinus, benda, teureup, koang, huni, pulus, beringin dan pohon lainnya.\n\n*Fasilitas (Saran dan Prasarana):* Tempat wisata Karang Gantungan ini berjarak 54 kilometer dari gerbang tol Cileunyi. Untuk bisa menuju tempat wisata ini, pengunjung bisa melewati Jalan Raya Cicalengka - Majalaya dan langsung menuju Desa Karang tunggal, Kecamatan Paseh, Kabupaten Bandung. Akses jalan menuju ke lokasi ini cukup baik dengan kelengkapan fasilitas pos jaga, MCK dan musholla."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/KRAMAT%20GANTUNG.png"
+    },
+    {
+      "tag": "waterboom_tirta_riang",
+      "patterns": [
+        "Waterboom Tirta Riang bandung",
+        "Waterboom Tirta Riang",
+        "Waterboom Tirta Riang ciparay",
+        "wisata Waterboom Tirta Riang"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Waterboom Tirta Riang\n*Lokasi:* Kecamatan Ciparay\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 15.000,-\n\n*Profil Objek:* Kolam Renang yang ada di Wilayah Ciparay Kabupaten Bandung.\n\nKolam renang yang bertempat di desa jongor kota ciparay kabupaten Bandung ini mempunyai luas +-5000 M dan terbagi menjadi 7 Kolam. Di dalamnya terdapat permainan waterboom dan ember tumpah.\n\n*Fasilitas (Saran dan Prasarana):* Kolam renang, ruang ganti, kantin, dll."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/TIRTA%20RIANG.png"
+    },
+    {
+      "tag": "villa_kancil",
+      "patterns": [
+        "villa kancil majalaya",
+        "villa kancil bandung",
+        "tiket villa kancil",
+        "tiket masuk villa kancil",
+        "harga tiket villa kancil",
+        "villa kancil di bandung",
+        "villa kancil majalaya bandung",
+        "villa kancil kampoeng sunda"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Villa Kancil\n*Lokasi:* Kecamatan Solokan Jeruk\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 25.000,- s/d Rp. 35.000,-\n\n*Profil Objek:* Villa Kancil adalah Obyek Wisata di Kabupten Bandung yang berlokasi tepatnya di jalan Raya Desa Padamukti, Kampung Bojong Bubu, SolokanJeruk, Majalaya. Villa Kancil menawarkan sensasi liburan anda di sebuah tempat di bandung yang masih asri dan khas alam dan lingkungan pedesaannya. Sementara untuk fasilitas wisatanya anda di sini akan disuguhi beragam aneka wahana permainan menarik dan menantang untuk beragam pilihan usia. Yang hebat dari tempat wisata di majalaya bandung ini juga adalah sudah dilengkapi dengan pusat wisata kuliner yang terkenal dengan aneka menu khas Rumah Makan Sunda di Bandung nya yang enak dan murah.\n\n*Fasilitas (Saran dan Prasarana):* Untuk wisata outboundnya juga cukup lengkap yang ada buat anak-anak dan dewasa, mulai dari climbing wall, spidey web, country bridge, Fun Games hingga kegiatan asyik balap perahu, tangkap ikan, bola lumpur dll."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/VILLA%20KANCIL.png"
+    },
+    {
+      "tag": "cisanti",
+      "patterns": [
+        "situ cisanti",
+        "situ cisanti bandung",
+        "cisanti pangalengan",
+        "situ cisanti pangalengan",
+        "danau cisanti",
+        "curug cisanti"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Cisanti\n*Lokasi:* Kecamatan Kertasari\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp 12.000/orang, motor Rp.4000 dan mobil Rp.9000,-.\n\n*Profil Objek:* Alamat / Lokasi situ Cisanti tepatnya berada di kampung Pejaten, desa Tarumajaya, kecamatan Kertasari kabupaten Bandung. Tidak terlalu jauh dari Bandung, hanya sekitar 60 KM saja. Luas area situ sekitar 5 hektar, dan ada di dalam area lahan sebesar 10 hektar. Situ/danau Cisanti merupakan titik nol atau hulu sungai citarum, salah satu sungai terbesar di jawa barat yang dikenal dengan polusinya.\n\nSepertinya ga bakal nyangka kalau sungai citarum yang kotor berawal dari tempat yang begitu bersih dan indah. Kawasan danau cisanti dikelilingi oleh beberapa gunung seperti gunung wayang, gunung malabar, gunung bedil, dan gunung rakutak. Lokasinya juga tidak begitu jauh dari kawasan perkebunan teh pangalengan.\n\n*Fasilitas (Saran dan Prasarana):* Ada beberapa alternatif jalan ke situ cisanti yang bisa anda gunakan. Rute menuju situ Cisanti via Pangalengan dan Jalan ke situ Cisanti via Ciparay. Untuk fasilitas di lokasi sekarang sudah cukup lengkap. Terdapat mushalla di area depan. Lapangan parkir pun tersedia cukup luas dan bisa menampung cukup banyak mobil dan motor. Selain itu terdapat beberapa warung di lokasi. Dulu ada beberapa yang buka di pinggir danau, tapi sekarang semuanya terpusat di area depan tepat di pinggir lahan parkir. Kondisinya juga lebih baik dan lebih nyaman untuk jajan, makan, ataupun sekedar ngopi beristirahat disini. Untuk toilet hanya tersedia di area depan. Tempat sampah sudah banyak tersebar disekitar danau."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/CISANTI.png"
+    },
+    {
+      "tag": "tirta_anyar",
+      "patterns": [
+        "Tirta Anyar",
+        "Tirta Anyar bandung",
+        "Tirta Anyar ibun",
+        "wisata Tirta Anyar",
+        "kolam renang Tirta Anyar"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Tirta Anyar\n*Lokasi:* Kecamatan Ibun\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* -\n\n*Profil Objek:* Kawasan wisata yang berada ±500 meter dari jalan utama ini menawarkan kolan renang air panas yang mana sumber air panas kolam tersebut langsung diambil dari air panas Taman Wisata Alam Kawah Kamojang. Tak hanya itu, Kolam Renang Tirta anyar Kamojang yang terdiri dari dua kolam air panas juga menawarkan kamar rendam buat temen-temen yang datang dengan tujuan terapi ataupun relaksasi.\n\nKawasan Desa Wisata Laksana Si Anyar Kamojang juga menyuguhkan danau buatan, dimana tepat berada di tengah danau berdiri kokoh sebuah bangunan berbentuk Kapal dengan nama Dewa Surya. Pihak pengelola juga menyediakan sepeda air untuk mengelilingi danau dengan harga yang cukup terjangkau. Tak hanya itu, disaat kita mengelilingi danau, kita bisa memberi makan ikan-ikan yang ada di danau tersebut, tentunya dengan pakan yang dijual oleh pihak pengelola. Ada jug awahana Flying Fox bagi anda yang senang memacu adrenalin, dan becak mini bagi anak-anak anda.Tentunya semua wahana yang ada di Kawasan Desa Wisata Laksana Si Anyar Kamojang bisa dimainkan oleh dewasa dan anak-anak, untuk keamanan pihak pengelola sudah menempatkan petugas ditiap-tiap wahana. Dari pengalaman penulis, kalau buat foto-foto sih mantap deh pokoknya, tinggal pilih sudut yang tepat aja.\n\n*Fasilitas (Saran dan Prasarana):* Bangunan tersebut merupakan penginapan yang terdiri dari empat kamar lengkap dengan segala fasilitasnya yang ditujukan buat temen-temen yang mencari penginapan ataupun bagi anda pengantin baru yang mencari tempat untuk bulan madu, mungkin Dewa Surya bisa menjadi salah satu referensi. Geladak Kapal Dewa Surya yang oleh pihak pengelola kedepan akan dijadikan mini cafe bisa menjadikan tempat ini lengkap dari sisi fasilitas."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/TIRTA%20ANYAR.png"
+    },
+    {
+      "tag": "pemandian_air_panas_tirta_camelia",
+      "patterns": [
+        "Pemandian Air Panas Tirta Camelia",
+        "kolam renang Tirta Camelia",
+        "kolam renang Tirta Camelia pangalengan",
+        "Tirta Camelia",
+        "kolam renang Air Panas Tirta Camelia",
+        "Tirta Camelia pangalengan"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Pemandian Air Panas Tirta Camelia\n*Lokasi:* Kecamatan Pangalengan\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:*\n- Tiket Masuk Perorangan dewasa: Rp.10.000,-\n- Tiket Masuk Anak-Anak: Rp.7000,-\n- Tiket Masuk Bak Rendam: Rp.5000,-\n- Tiket Parkir Motor: Rp.2.000,-\n- Tiket Parkir Mini Bus: Rp.4.000,-\n- Tiket Parkir Bus/truk: Rp.10.000,-\n- Terapi Ikan: Rp.10.000,-\n\n*Profil Objek:* Pemandian Air Hangat Alami lokasinya berada di Desa Banjarsari, Pangalengan, Bandung, WestJava 40378, Kecamatan Pangalengan, Kabupaten Bandung, Jawa Barat. Salah Satu Pemandian air hangat alami di bandung selatan selain ciblonag. Ada sejak tahun 1985.\n\nSeiring dengan perkembangan Pariwisata Bandung yang terus berkembang pesat, dimana banyak wisatawan baik warga bandung dan sekitarnya serta sejumlah wisatawan dari luar kota seperti jakarta yang datang ke sana, maka pada tahun 1987 lokasi wisata ini pun dibenahi oleh pemkab setempat.\n\nHal pertama yang dilakukan adalah dengan membangun kolam renang yang lebih refresentatif dengan beragam ukuran kolam, seperti kolam untuk anak-anak dan juga kolam untuk dewasa. Dan kembali pada tahun 1990, objek wisata ini pun ditambah dengan fasilitas lain yang akan semakin memanjakan wisatawan.\n\n*Fasilitas (Saran dan Prasarana):* Pemandian air panas Tirta Camelia dilengkapid engan berbagai macam fasilitas, antara lain:\n2 buah Kolam renang air panas, Kolam rendam, Kantin, Terapi ikan dan lahan yang luas untuk kegiatan atau acara-acara besar."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/PEMANDIAN%20AIR%20PANAS%20TIRTA%20CAMELIA.png"
+    },
+    {
+      "tag": "sukamanah_waterboom",
+      "patterns": [
+        "green Sukamanah residance",
+        "Sukamanah Waterboom",
+        "Sukamanah Waterboom rancaekek",
+        "Sukamanah Waterboom bandung",
+        "wisata Sukamanah Waterboom"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Sukamanah Waterboom\n*Lokasi:* Kecamatan Rancaekek\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:*\nUntuk warga perumahan Green Sukamanah Residence, dikenakan tarif langganan pertahun sebesar Rp. 250.000, berlaku untuk 5 orang perkunjungan.\nSedangkan tarif untuk umum, dibagi 2 kategori:\n- Weekday, dewasa Rp 30.000, dan anak-anak Rp. 17.000.\n- Hari biasa, dewasa Rp 25.000, dan anak-anak Rp. 15.000.\n\n*Profil Objek:* Waterboom Green Sukamanah, berada di lintasan jalur Rancaekek-Majalaya. Dinamakan demikian, karena memang wisata air ini berada dan bahkan menjadi bagian dari Green Sukamanah Residence Rancaekek.\n\nBerlokasi di Jalan Majalaya Rancaekek No 98 Desa Sukamanah, Rancaekek Bandung. Wahana ini mulai dibuka sejak Februari 2014. Konsep awalnya merupakan salah satu fasilitas perumahan. Namun seiring waktu, akhirnya dibuka juga untuk umum.\n\n*Fasilitas (Saran dan Prasarana):* Seperti umumnya tempat wisata sejenis, fasilitas disini juga sama. Ada kolam untuk dewasa, wahana luncur rendah dan tinggi, sekitar 20 meter, ada kolam berbentuk sungai, dan Waterboom sendiri dan kantin."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/SUKAMANAH%20WATERBOOM.png"
+    },
+    {
+      "tag": "kolam_renang_yasmin_kartika_suri",
+      "patterns": [
+        "Kolam Renang Yasmin Kartika Suri",
+        "Yasmin Kartika Suri",
+        "Kolam Renang Yasmin",
+        "Kolam Renang Yasmin arjasari",
+        "wisata Kolam Renang Yasmin Kartika Suri"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Kolam Renang Yasmin Kartika Suri\n*Lokasi:* Kecamatan Arjasari\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 10.000,- s/d Rp. 20.000,-\n\n*Profil Objek:* Objek Wisata Yasmin Kartika Suri beralamat di Kp.Pasir Bentang Desa Mekarjaya Kecamatan Arjasari Banjaran Kab Bandung.\n\nUntuk anda yang sedang mencari Tempat Rekreasi untuk Keluarga pada saat Weekend, dan menginginkan tempat yang masih Asri, Sejuk, Bebas dari Polusi serta Kemacetan, mungkin tempat ini adalah salah satu yang pas untuk dikunjungi baik untuk dalam wilayah maupun luar wilayah Kabupaten Bandung karena tempat kami berada di dataran tinggi.\n\n*Fasilitas (Saran dan Prasarana):* Objek Wisata Yasmin Kartika Suri yang berada di Bandung Selatan Menyediakan:\n- Pemandian Air Panas\n- Bumi Perkemahan\n- Penginapan Keluarga\n- Gazebo\n- Aula."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/KOLAM%20RENANG%20YASMIN%20KARTIKASURI.png"
+    },
+    {
+      "tag": "curug_cinulang",
+      "patterns": [
+        "Curug Cinulang",
+        "Curug Cinulang cicalengka",
+        "Curug Cinulang bandung",
+        "wisata Curug Cinulang",
+        "wisata Curug Cinulang cicalengka"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Curug Cinulang\n*Lokasi:* Kecamatan Cicalengka\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Biaya masuk ke Curug Cinulang yaitu Rp. 8.000. Rp. 5.000 untuk retribusi tiket masuk dan Rp.3.000 sebagai biaya parkir.\n\n*Profil Objek:* Curug Cinulang atau Air Terjun Cinulang berada di Kecamatan Cicalengka, Desa Tanjung wangi, Kabupaten Bandung. Tepat berbatasan dengan Kabupaten Sumedang. Air terjun ini berada dilereng pegunungan dan masih dalam wilayah Gunung Masigit Kareumbi, yaitu Taman Bulu. Seperti air terjun lainnya yang berada di pegunungan, Curug Cinulang memiliki tinggi mencapai 30 meter dan memiliki hawa yang sejuk serta air yang dingin.\n\nRute perjalanan yang harus ditempuh untuk bisa mencapai lokasi cukup mudah, dapat memilih satu dari dua alternatif jalur yang disediakan. Namun banyak dari para pejalan yang menyarankan untuk melewati jalur Cicalengka saja.\n\n*Fasilitas (Saran dan Prasarana):* Fasilitas yang disediakan yaitu terdapat pos keamanan, warung-warung penjual makanan dan minuman, MCK dan Musholla namun semua tidak permanen melainkan semua bangunan terbuat dari kayu/bambu."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/CURUG%20CINULANG.png"
+    },
+    {
+      "tag": "cicalengka_dreamland",
+      "patterns": [
+        "Cicalengka Dreamland",
+        "Curug Cinulang cicalengka",
+        "Curug Cinulang bandung",
+        "wisata Cicalengka Dreamland",
+        "wisata Dreamland Cicalengka",
+        "Cicalengka Dreamland harga tiket",
+        "Cicalengka Dreamland bandung jawa barat"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Cicalengka Dreamland\n*Lokasi:* Kecamatan Cicalengka\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 10.000,- s/d Rp. 15.000,-\n\n*Profil Objek:* Memiliki panorama alam yang menakjubkan, destinasi liburan terus bermunculan di kawasan Bandung, Jawa Barat. Belum lama ini di media sosial sempat viral sebuah objek wisata baru yakni Cicalengka Dreamland.\n\nBerlokasi di Desa Tanjungwangi, Kecamatan Cicalengka, Bandung, Jawa Barat, tempat ini merupakan taman rekreasi yang mengusung konsep wisata kekinian dengan menawarkan tempat santai dan swafoto yang instagenic.\n\nHamparan perbukitan dan pohon-pohon hijau yang memanjakan mata serta udara sejuk khas dataran tinggi akan menanti Anda. Hal ini dikarenakan lokasinya berada di area yang sama dengan Bukit Teletubbies Cicalengka.\n\nSelain pemandangan yang asri, wisatawan pun disuguhkan spot foto menarik. Tak ketinggalan ada berbagai wahana seru yang sayang bila dilewatkan. Objek wisata baru Bandung satu ini hadir dalam konsep yang cukup menarik dan keren. Meski seperti destinasi wisata lainnya yang menyediakan spot foto menarik, Cicalengka Dreamland mengusung konsep lain daripada yang lain. Konsep yang dibawa destinasi wisata ini bernuansa Islami. Terdapat sejumlah spot yang sangat Instagramable, akan tetapi dibalut dengan kesan Islami. Seperti adanya kalimat I Love Alquran. Selanjutnya terdapat juga tembok dalam mushap Alquran dan lain sebagainya. Hal ini tentunya menjadi suatu konsep yang baru dan belum dapat anda temukan pada destinasi wisata lainnya.\n\nCicalengka Dreamland Bandung menawarkan tempat bersantai serta tempat berswafoto pada dataran tinggi dengan background pegunungan, pesawahan, dan perkotaan. Banyak hal baru yang hadir dalam destinasi wisata Bandung Timur satu ini.\n\nWisata ini dapat terbilang masuk dalam kategori wisata Islam Kota Bandung. Pasalnya, melengkapi tempat wisata religi Kota Bandung setelah Kampung Quran Bandung yang lebih dulu ada. Dengan area perbukitan yang menjadi salah satu tempat camping Bandung Timur. Lalu background perbukitan Teletubies ini menjadi salah satu spot menarik dengan latar belakang alam yang sangat indah.\n\nDari atas bukit ini, wisatawan dapat menikmati eksotisme pemandangan sunrise di Sunan Ibu Sunrise Point yang terdapat pada Kawah Putih Ciwidey. Menariknya lagi, dari atas Bukti Teletubies,anda dapat menyaksikan gemerlap bintang bertaburan dan juga keunikan Bandung Citylight.\n\n*Fasilitas (Saran dan Prasarana):* Tempat wisata terbaru Bandung Timur ini hadir dengan beragam wahana wisata menarik dengan fasilitas pendukung yang cukup lengkap. Sehingga dapat memanjakan masa liburan anda bersama keluarga, teman, atau orang terdekat lainnya.\n\nSalah satunya spot foto balon udara terbang dan sarang burung yang hampir sama yang terdapat pada Dusun Bambu Lembang yang cukup unik.Terdapat pula flying fox terpanjang di Indonesia dengan panjang 630 meter.\n\nHal menarik dari destinasi wisata Islami Bandung Timur ini, ternyata juga menyediakan berbagai spot foto menarik dan unik yang cukup instagenic. Lalu ada wahana surga dan neraka yang sangat unik yang akan mengingatkan kita untuk lebih berhati-hati selama melangkah di dunia ini.\n\nTerdapat pula Fantazty Coolinary yang menawarkan berbagi jenis kuliner yang sangat lezat dan dapat menemani anda menikmati pemandangan perbukitan indah pada destinasi wisata ini."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/CICALENGKA%20DREAMLAND.png"
+    },
+    {
+      "tag": "taman_buru_masigit_kareumbi",
+      "patterns": [
+        "Taman Buru Masigit Kareumbi",
+        "Taman Buru Masigit Kareumbi cicalengka",
+        "Taman Buru Masigit Kareumbi bandung",
+        "wisata Taman Buru Masigit Kareumbi",
+        "wisata Taman Buru Masigit Kareumbi cicalengka"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Taman Buru Masigit Kareumbi\n*Lokasi:* Kecamatan Cicalengka\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* -\n\n*Profil Objek:* Taman buru masigit kareumbi memiliki luas sekitar 12.420,70 hektar. Kawasan lokasi wisatanya masuk ke dalam 3 wilayah administratif, yaitu kabupaten bandung, sumedang serta kabupaten garut. Sebagian besar wilayah TBMK masuk kewilayah Sumedang dan Garut, dan itu bisa dibuktikan dengan letak geografisnya TB Gunung Masigit Kareumbi yang terletak di 6° 51′ 31” sampai 7°00′ 12” Lintang Selatan dan 107° 50′ 30″” sampai 108°1′ 30” Bujur Timur. Taman Buru Masigit Kareumbi lokasi geografisnya adalah berguung-gunung, Ketinggian Gunung Kareumbi puncaknya berada diposisi 1.763 mdpl, menjadikan kawasan wisata hutan di jawa barat ini termasuk hutan tipe iklim C dengan suhu rata-rata kawasan 23 derajat celsius.\n\nNama Masigit berasal dari nama sebuah bukit( pasir masigit ) yang berada di sebelah timur dari kawasan wisata. Sedangkan nama Kareumbi diambil dari nama sebuah gunung yang ada di sebelah barat kawasan. Nama kareumbi juga merupakan nama jenis pohon (Homalanthus populneus). Konon dulu pohon ini banyak terdapat di gunung kareumbi.\n\n*Fasilitas (Saran dan Prasarana):* Fasilitas basic di tempat ini sudah cukup lengkap. Disini terdapat akomodasi yang bisa digunakan untuk menginap seperti rumah pohon kareumbi, rumah rusa, wisma dan aula, dan area camping ground. Fasilitas lainnya yang tersedia antara lain; kantin, mushala, area parkir mobil dan motor yg lumayan luas, toilet, ruangan (untuk kelas pelatihan dll.)\n\nJalan menuju Kareumbi ada beberapa alternatif. Tapi yang paling mudah adalah melalui jalan Bandung – Cicalengka – Sindang wangi – Tanjung wangi – Blok KW (kawasan wisata). Letak lokasi kurang lebih 14 KM dari Cicalengka."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/TAMAN%20BURU%20MASIGIT%20KAREMBI.png"
+    },
+    {
+      "tag": "kolam_renang_cisago",
+      "patterns": [
+        "Kolam Renang Cisago",
+        "Cisago",
+        "Kolam Renang Cisago margahayu",
+        "Kolam Renang Cisago bandung",
+        "wisata Kolam Renang Cisago",
+        "wisata Kolam Renang Cisago margahayu"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Kolam Renang Cisago\n*Lokasi:* Kecamatan Margahayu\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 25.000,-\n\n*Profil Objek:* Cisago Water Park ada tiga kolam yang kedalamannya berbeda-beda, ada kolam renang anak, remaja, and dewasa. Selain itu ada ember tumpah, kantin dengan menu yang enak seperti baso, nasi goreng, siomay, mie rebus, jus, dan makanan lainnya.\n\n*Fasilitas (Saran dan Prasarana):* Ruang ganti, kamar mandi, dan air mandi. Tersedia juga sewa ban, ruang P3K, dan petugas kolam kerang yang berjaga-jaga setiap saat ditepi kolam renang."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/KOLAM%20RENANG%20CISAGO.png"
+    },
+    {
+      "tag": "curug_cilengkrang",
+      "patterns": [
+        "Curug Cilengkrang",
+        "wisata Curug Cilengkrang",
+        "Curug Cilengkrang bandung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Curug Cilengkrang\n*Lokasi:* Kecamatan Cilengkrang\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp.7.500,-\n\n*Profil Objek:* Curug Cilengkrang adalah salah satu objek wisata alam yang ada di Bandung. Objek wisata yang dikelola oleh Perum Perhutani ini terletak di kaki Gunung Manglayang Desa Cilengkrang Kabupaten Bandung, termasuk ke dalam wilayah Provinsi Jawa Barat. Selain air terjun yang indah, objek wisata ini juga menawarkan sejumlah eksotisme alam. Pepohonan yang rindang, udara sejuk, suara merdu burung, menjadi keindahan pemandangan disini.\n\nTerdapat lima air terjun, pertama itu ada Curug Batu Peti, konon di dalam batu tersebut terdapat berbagai benda pusaka peninggalan sejarah. Curug kedua yang dinamakan Curug Papak, untuk menjelajahi curug ini harus hati-hati karena jalan yang dilalui cukup licin dan curam. Curug ketiga yaitu Curug Batu Panganten dengan perjalanan melewati jalan setapak. Curug ke empat yang dinamai Curug Kacapi, beberapa wisatawan yang pernah mengunjungi objek wisata ini, sering mendengar suara dentingan dari alat musik kecapi. Curug terakhir yaitu Curug Cilengkrang tingginya mencapai 8 meter dengan debit air terjun yang cukup deras.\n\n*Fasilitas (Saran dan Prasarana):* Fasilitas yang disuguhkan yaitu pos keamanan, petunjuk jalan, warung-warung penjual, musholla dan MCK."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/CURUG%20CILENGKRANG.png"
+    },
+    {
+      "tag": "batu_kuda",
+      "patterns": [
+        "Batu Kuda",
+        "wisata Batu Kuda",
+        "Batu Kuda bandung",
+        "Batu Kuda gunung manglayang",
+        "Batu Kuda manglayang bandung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Batu Kuda\n*Lokasi:* Kecamatan Cilengkrang\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp.3000/orang dan Rp.5.000/orang jika camping.\n\n*Profil Objek:* Batu Kuda berada di lereng Gunung Manglayang. Tepatnya di Kampung Cikoneng 1, Desa Cibiru Wetan, Kecamatan Cileunyi, Kabupaten Bandung.\n\nKawasan ini berdiri di atas lahan hutan pinus dengan luas sekira 20 Ha yang meliputi BKPH Bandung Utara, RPH Manglayang Barat, RPH Ujung Berung, Kabupaten Bandung. Wana wisata ini terletak pada ketinggian antara 1150 – 1300 mdpl dan berada di bawah pengawasan Perhutani Unit III Jawa Barat dan Banten. Sebelumnya Prabu Eyang Kusumah mengubah kuda yang dikenal dengan nama kuda Semprani menjadi batu dengan posisi telungkup (depa). Panjang situs batu tersebut sekira 15 meter, lebar 3 meter dan tingginya 5 meter. Lokasi batu berada di sebelah utara sekira 700 meter dari pintu gerbang.\n\nKini disamping situs batu kuda, yang menjadi favorit wisatawan yakni berkemah dan hiking kepuncak Gunung Manglayang sekira 3 km dari pintu gerbang. Selain itu juga dapat melihat situs batu lainnya yang erat kaitan dengan situs Batu Kuda seperti Batu Lawang, Batu Tumpeng (2km) dan Batu Keraton (2,5 km).\n\n*Fasilitas (Saran dan Prasarana):* Fasilitas yang tersedia yaitu sarana berolahraga, mendaki gunung atau berkemah, juga di lokasi itu terdapat track motor ATP yang bisa disewa pengunjung dan terdapat pula area parkir tepat di depan gerbang masuk pos keamanan dan terdapat juga MCK."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/BATU%20KUDA.png"
+    },
+    {
+      "tag": "tahura",
+      "patterns": [
+        "Tahura",
+        "wisata Tahura",
+        "Tahura bandung",
+        "Tahura djuanda",
+        "tiket masuk Tahura"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Tahura\n*Lokasi:* Kecamatan Cimenyan\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp. 15.000,- (Domestik) Rp. 55.000,- (Mancanegara)\n\n*Profil Objek:* Taman Hutan Raya (Tahura) Ir. H. Djuanda yang merupakan bagian dari daerah cekungan Bandung, memiliki latar belakang sejarah yang erat kaitannya dengan zaman purba hingga sekarang. Secara geologis daerah ini mengalami perubahan yang disebabkan oleh gejolak alam dalam kurun waktu pembentukan alam semesta.\n\nTaman Hutan Raya Ir. H. Djuanda awalnya merupakan bagian areal dari kelompok Hutan Lindung Gunung Pulosari yang berdasarkan Surat Keputusan Mentri Pertanian Nomor 575/Kpts/Um/8/1980 dirubah fungsinya menjadi Taman Wisata Alam (TWA) Curug Dago. Pada tanggal 14 Januari 1985 bertepatan dengan kelahiran Bapak Ir. H. Djuanda, TWA Curug Dago secara resmi berubah fungsi menjadi Hutan Raya Ir.H. Djuanda yang merupakan Tahura pertama di Indonesia, berdasarkan Surat Keputusan Presiden Republik Indonesia Nomor 3 Tahun 1985.\n\nTaman Hutan Raya Ir. H. Djuanda, diharapkan mempunyai fungsi perlindungan sistem penyangga kehidupan antara lain pemeliharaan tata air dan tangkapan air, pengawetan keanekaragaman jenis tumbuhan dan satwa serta keunikan panorama alam yang dapat dimanfaatkan secara lestari untuk konservasi, koleksi, edukasi, rekreasi, dan secara tidak langsung dapat meningkatkan sosisal ekonomi masyarakat sekitarnya serta menjadi Sumber Pendapatan Asli Daerah (PAD) Provinsi Jawa Barat.\n\nTujuan pengelolaan Taman Hutan Raya Ir. H. Djuanda adalah untuk:\n- Terjaminnya kelestarian kawasan hutan dan ekosistemnya.\n- Terbinanya koleksi tumbuhan dan satwa serta sumber daya alam kawasan Taman Hutan Raya\n- Optimalnya manfaat Taman Hutan Raya untuk wisata alam, penelitian, pendidikan, ilmu pengetahuan, menunjang budidaya, budaya bagi kesejahteraan masyarakat\n- Terjaganya Taman Hutan Raya yang menjadi kebanggaan Provinsi Jawa Barat.\n\n*Fasilitas (Saran dan Prasarana):* Fasilitas Umum dan Fasilitas Sosial telah tersedia di wilayah wisata Tahura."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/TAHURA.png"
+    },
+    {
+      "tag": "tebing_kraton",
+      "patterns": [
+        "Tebing Kraton",
+        "wisata Tebing Kraton",
+        "Tebing Keraton",
+        "Tebing Kraton di bandung",
+        "Tebing Keraton bandung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Tebing Kraton\n*Lokasi:* Kecamatan Cimenyan\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp. 15.000,-\n\n*Profil Objek:* Tebing Keraton atau lebih dikenal dengan Tebing Keraton berada di ketinggian 1200 mdpl. Tebing ini menawarkan keindahan alam dari jejeran hutan pinus. Selain itu saat dari tebing ini, hamparan keindahan kota Bandung bisa terlihat lebih apik. Tempat wisata yang sangat cocok bagi pencinta kegiatan alam.\n\nSelain menawarkan keindahan alam dan perbukitan, beragam aktivitas bisa dilakukan disini. Mulai dari kegiatan menantang sampai kegiatan relaksasi. Tidak salah memang tebing ini menjadi salah satu tujuan favorit wisatawan yang berkunjung ke lembang.\n\nKeindahan kota bandung dan alam perbukitan menjadi sajian utama kawasan wisata perbukitan ini. Bentang alam yang eksotik didukung oleh infrastruktur wisata yang baik menjadi salah satu keunggulannya. Tidak ketinggalan beragam kegiatan yang bisa dilakukan di sini, semua akan menambah pengalaman baru bagi pengunjung. Berikut beberapa kegiatan yang bisa dilakukan diobjek wisata ini.\n\nTebing di Lembang memiliki pemandangan alam yang menakjubkan. Dikelilingi hamparan hutan, membuat wisatawan enggan untuk tidak berfoto. Terdapat beberapa tempat foto favorit dan salah satunya adalah di bebatuan yang berada di pinggir tebing.\n\nPengunjung bisa duduk santai atau bergaya di batu/pinggir tebing tersebut sebelum difoto. Hasil foto akan terlihat menakjubkan. Ditambah jika foto diambil pada pagi hari saat masih berkabut. Namun, jika ingin berfoto di pagi hari, sebaiknya sudah sampai di tebing pukul 05.00 WIB.\n\nSelain di atas tebing, pengunjung juga bisa berfoto di sepanjang jalur pendakian yang dibuat pengelola. Hal tersebut dikarenakan di ujung tebing, ramai pengunjung yang antri berfoto. Untuk mendapatkan pemandangan alam yang indah, bisa juga berfoto dari gardu pandang.\n\nBerada di ketinggian memungkinan pengunjung bisa melihat pemandangan matahari terbit dan tenggelam. Jika datang waktu pagi hari, semburat kuning sinar matahari, berpadu dengan hijaunya hutan dan kabut. Sedangkan saat sore hari, sinar keemasan mataharari bisa menjadi latar belakang untuk berfoto.\n\nWaktu terbaik untuk datang saat pagi hari yaitu 05.00-07.00 WIB. Namun, untuk mendapatkan foto yang lebih bagus dan meminimalisir noise, bisa datang saat hari biasa. Hal tersebut disebabkanakan lebih banyak pengunjung yang datang saat akhir pekan.\n\n*Fasilitas (Saran dan Prasarana):* Pengelola kawasan wisata ini sudah menyediakan fasilitas umum. Beberapa diantaranyaadalahtempat untuk beribadah dan juga kamar mandi. Di sekitar area wisata, banyak warung dengan beragam makanan dan minuman."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/TEBING%20KRATON.png"
+    },
+    {
+      "tag": "puncak_bintang",
+      "patterns": [
+        "Puncak Bintang",
+        "wisata Puncak Bintang",
+        "Puncak Bintang Moko",
+        "Puncak Bintang di bandung",
+        "Puncak Bintang cimenyan"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Puncak Bintang\n*Lokasi:* Kecamatan Cimenyan\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp.20.000/orangnya\n\n*Profil Objek:* Lokasi Puncak Bintang Moko yaitu di Kampung Buntis Bongkor, Kecamatan Cimenyan, Kabupaten Bandung, Jawa Barat Indonesia. Lokasi wisata Puncak Bintang ini berada di sebuah Puncak Bukit di Bandung, masuk ke dalam kawasan Perhutani KPH Bandung Utara, letaknya tidak jauh, hanya 200 meter dari Alamat Bukit Moko di Kampung Buntis, Desa Cimenyan Bandung dan tempat Kuliner Warung Daweung. Puncak Bintang Bandung ini secara resmi dibuka sebagai tempat wisata di Bandung yang baru, tepat pada tanggal 23 September 2014. Diresmikan langsung oleh kepala perhutani Divisi Regional Jawa Barat dan Banten, fungsi tempat seluas 11 hektar ini pun dirubah, yang tadinya merupakan kawasan produksi hutan pinus sadapan menjadi kawasan area Wisata Hutan Puncak Bintang.\n\nPuncak Bintang Bandung lokasinya berada di atas ketinggian sekitar 1.500 meter di atas permukaan air laut (mdpl). Kawasan Puncak Bintang ini menawarkan suhu kawasan yang sangat dingin meski di siang hari, serta tempatnya yang selalu dilingkupi kabut putih. Pemandangan alamnya juga sangat indah, masih alami serta sangat tenang karena lokasinya jauh dari lokasi kota bandung.\n\n*Fasilitas (Saran dan Prasarana):* Tempat parkir objek wisata puncak bintang di bandung ini sudah ditata lebih baik, sehingga tampak lebih teratur dan lebih aman. Prasarana jalan masuk menuju lokasi kawasan wisata Puncak Bintang juga yang tadinya jalanan berbatu, kini sudah jauh lebih bagus. Bahkan trek jalan yang biasa digunakan pengunjung untuk berkeliling menikmati keindahan alam sekitarnya, kini sudah bagus, dasarnya sudah pakai pavin block.\n\nFasilitas wisata lainnya yang sudah tersedia untuk kenyamanan anda selama berwisata di Puncak Bintang adalah, Di kawasan ini selain sudah tersedia trek hiking dan trekking, juga sudah tersedia tempat peribadahan kaum muslim mushola dan toilet. Untuk tempat parkir kendaraan anda, tersedia di dua lokasi, yaitu anda bisa memilih di area parkir bawah atau di atas dekat warung daweung Moko. Untuk tarf parkir kendaraannya sendiri adalah sepeda motor Rp.15.000, sedangkan untuk kendaraan empat adalah Rp.25.000/mobil. Untuk urusan tempat makan da nminum, inilah fasilitas wisata yang masih harus terus ditambah oleh pengelola di waktu mendatang.\n\nDi dalam area puncak bintang, saat ini diketahui belum ada tempat makan yang tersedia, lokasi tempat makannya masih berada di sekitar area, dimana di sana sudah ada beberapa warung–warung sederhana yang bisa dijadikan tempat makan dan istirahat. Untuk kenyamanan dan keamanan pengunjung selama beraktifitas di malam hari, jalanan di area puncak bintang sudah diterangi dengan lampu penerangan."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/PUNCAK%20BINTANG.png"
+    },
+    {
+      "tag": "taman_langit",
+      "patterns": [
+        "Taman Langit",
+        "wisata Taman Langit",
+        "Taman Langit pangalengan",
+        "Taman Langit di bandung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Taman Langit\n*Lokasi:* Kecamatan Pangalengan\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp.10.000, biaya camping ground Rp 25.000, parkir motor Rp 3.000 dan mobil Rp 5.000.\n\n*Profil Objek:* Taman Langit Pangalengan adalah sebuah wisata baru diperkenalkan pada akhir 2020 lalu, objek wisata yang menawarkan keindahan alam serta hamparan luas kebun teh. Tempat sejuk dan cocok sebagai lokasi untuk refreshing sejenak dari hiruk-pikuk perkotaan. Selain itu di sini juga menjadi tempat untuk berswafoto pada pemandangannya, ada spot seperti gardu pandang yang menjadi favorit pengunjung saat mengabadikan momen di sini.\n\n*Fasilitas (Saran dan Prasarana):* Fasilitas wisata ada area parkir, toilet umum, warung makanan serta minuman, spot foto, camping ground, penyewaan tenda, dan lainnya.\n\nTaman Langit Pangalengan berlokasi di Desa Sukaluyu, Kecamatan Pangalengan, Bandung, Jawa Barat. Jarak dari pusat kota Bandung sekitar 60 km, bisa ditempuh dengan waktu 2 jam perjalanan. Wisata buka selama 24 jam setiap hari."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/TAMAN%20LANGIT.png"
+    },
+    {
+      "tag": "curug_batu_templek",
+      "patterns": [
+        "Curug Batu Templek",
+        "Batu Templek bandung",
+        "wisata Curug Batu Templek",
+        "Curug Batu Templek di bandung"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Curug Batu Templek\n*Lokasi:* Kecamatan Cimenyan\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* -\n\n*Profil Objek:* Curug batu templek ini berlokasi di Kampung Cisanggarung, Desa Cikadung, Kecamatan Cimenyan, Kabupaten Bandung, Provinsi Jawa Barat, Indonesia.\n\nLokasi tersebut letaknya tak jauh dari pusat kota. Jaraknya kurang lebih 11 KM dari Pusat Kota Bandung. Jika dalam keadaan lancar, kamu hanya perlu waktu satu jam untuk dapat sampai kelokasi wisata alam curug batu templek.\n\nCurug Batu Templek Bandung adalah sebuah wisata alam air terjun yang terletak di Kota Bandung Timur. Dari sekian banyak wisata alam air terjun di Bandung, Curug Batu Templek tak kalah menarik karena pemandangan di sekitarnya dipenuhi dengan terbing yang berbatu cadas.\n\nSejarah Curug Batu Templek sangat sederhana, hanya karena di tempat ini dahulunya terdapat penambangan batu yang terdapat sebuah aliran air terjun dan diketahui aliran tersebut berasal dari sungai yang ada di atas tebing sehingga dinamakan Curug Batu Templek.\n\n*Fasilitas (Saran dan Prasarana):* Selain menikmati pesona air terjun, di kawasan Curug Batu Templek kita juga dapat melakukan berbagai aktivitas yang memacu adrenalin. Sebut saja spot panjat tebing di samping air terjun.\n\nYang tak kalah seru adalah wahana jembatan gantung sepanjang kurang lebih 50 meter membentang dari tebing air terjun ke tebing batu di sebelah timur. Untuk menjajal kedua aktivitas ini, pengunjung akan didampingi pemandudan harus menggunakan perlengkapan standar keselamatan yang disediakan dan disewakan oleh pengelola."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/CURUG%20BATU%20TEMPLEK.png"
+    },
+    {
+      "tag": "danau_cikoneng_bojongsoang",
+      "patterns": [
+        "Danau Cikoneng Bojongsoang",
+        "Danau Cikoneng Bojongsoang bandung",
+        "wisata Danau Cikoneng Bojongsoang",
+        "Danau Cikoneng"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Danau Cikoneng Bojongsoang\n*Lokasi:* Kecamatan Bojongsoang\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* -\n\n*Profil Objek:* Cikoneng Bojongsoang sudah lama ada namun baru-baru ini ramai di kalangan sosial media. Tempat ini menjadi daya tarik sendiri karena sebelumnya adalah hamparan sawah yang kemudian berubah menjadi petak-petak kolam seperti danau buatan yang asri. Keindahan alamnya dilengkapi pemandangan bukit dan gunung yang mengelilingi kota Bandung ini. Ditambah semilirnya angin membuat kalian akan betah di tempat ini.\n\nSebelum menuju lokasi, pada perjalanan menuju tempat ini kalian sudah disuguhi pemandangan berupa hamparan sawah yang luas. Pohon-pohon hijau pun turut meramaikan pengalaman perjalanan kalian. Benar-benar memanjakan mata bukan.\n\nDi zaman sekarang ini, tidak lengkap apabila bepergian tidak mengabadikan momen dan membagikannya di sosial media. Nah, di Cikoneng Bojosoang inilah jawabannya. Disini kalian ditawarkan potret alam yang asri dengan landscape yang indah dan cocok untuk kalian abadikan.\n\nPemandangan danau serta pepohonan hijau dihiasi bunga warna-warni menjadi view yang indah dan bisa kalian potret. Terlebih diabadikan pada pagi hari maupun sore hari, perpaduan pemandangan yang indah beserta lembayung langit akan menghasilkan hasil potret yang menarik dan ciamik.\n\n*Fasilitas (Saran dan Prasarana):* Di sepanjang jalan pun berisi warung penjual makanan yang menyediakan beraneka macam makanan seperti gorengan, minuman hangat bandrek dan menu sarapan. Dengan harga mulai dari Rp5.000 kalian sudah bisa menyantap makanan yang ada di warung sekitar. Lokasi ini juga biasa digunakan sebagai tempat berolahraga(Sepeda/Gowes) sekaligus healing gratis."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/DANAU%20CIKONENG%20BOJONGSOANG.png"
+    },
+    {
+      "tag": "nuansa_riung_gunung",
+      "patterns": [
+        "Nuansa Riung Gunung",
+        "Nuansa Riung Gunung bandung",
+        "wisata Nuansa Riung Gunung",
+        "Riung Gunung pangalengan",
+        "Nuansa Riung Gunung pangalengan"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Nuansa Riung Gunung\n*Lokasi:* Kecamatan Pangalengan\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp. 10.000,- (HTM) Rp. 25.000,- (Camping)\n\n*Profil Objek:* Nuansa Riung Gunung belakangan sedang hits di media sosial. Bukan tanpa alasan, Riung Gunung ini menawarkan pemandangan yang indah dengan udara sejuk. Lokasinya berada di Pangalengan, Bandung.\n\nJika kamu berangkat dari pusat Kota Bandung, jaraknya sekitar 50 kilometer. Butuh waktu kurang lebih satu jam 51 menit untuk tiba di Nuansa Riung Gunung.\n\nNuansa Riung Gunung disebut Swiss-nya Bandung. Daya tarik utama tempat ini adalah pemandangan kebun teh yang luas, dikelilingi perbukitan yang menakjubkan.\n\nPemandangannya seakan menghipnotis, cocok banget kamu kunjungi sebagai pencinta wisata alam. Terdapat pula jembatan kayu panjang yang estetik.\n\nSelain digunakan untuk melintasi kebun teh, jembatan kayu tersebut menjadi spot favorit untuk swafoto dan pembuatan video. Liburan di sini benar-benar akan mendapatkan momen me time yang menyenangkan.\n\n*Fasilitas (Saran dan Prasarana):* Ada beberapa aktivitas seru yang bisa dilakukan di Nuansa Riung Gunung. Mulai dari hunting foto, membuat konten video, bersantai di pinggir sungai, hingga berkemah.\n\nKamu bisa menyewa peralatan kemah di sana atau membawa sendiri. Selain itu, kamu bisa bersantai menikmati pemandangan kebun teh dengan hammock yang tersedia. Ditambah bisa melihat pemandangan sunrise dan sunset yang keren banget.\n\nFasilitasnya pun cukup lengkap, mulai dari area parkir, protokol kesehatan, spot foto, hammock, area berkemah, hingga toilet umum."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/NUANSA%20RIUNG%20GUNUNG.png"
+    },
+    {
+      "tag": "argo_wisata_mega_tutupan_baros",
+      "patterns": [
+        "Argo Wisata Mega Tutupan Baros",
+        "Argo Wisata Mega Tutupan Baros bandung",
+        "wisata Argo Wisata Mega Tutupan Baros",
+        "Argo Wisata Mega Tutupan Baros arjasari"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Argo Wisata Mega Tutupan Baros\n*Lokasi:* Kecamatan Arjasari\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp. 5.000,- - Rp. 10.000,- (Camping)\n\n*Profil Objek:* Agro wisata Mega tutupan ini berlokasi di desa Baros kec. Arjasari kab. bandung merupakan tempat wisata yang terbilang masih baru, namun makin hari makin rame aja di kunjungi.\n\nKawasan wisata ini berada di tengah hutan pinus yang akan membuatmu merasa sejuk dan juga fresh. Wisata alam ini sangat baik untuk dikunjungi.\n\n*Fasilitas (Saran dan Prasarana):*\n- Spot Foto\nPergi berwisata sudah tentu wajib berfoto sebagai kenang-kenangan atau hanya untuk sekedar mengisi konten di akun sosial mediamu. Disini, banyak sekali spot foto yang bisa kamu manfaatkan mulai dari rumah-rumahan, taman foto serta tak lupa pemandangan alam yang menakjubkan.\n\n- Tempat Camping\nTidak puas hanya melihat-lihat? Kamu juga bisa menginap dengan membuat camp disana loh. Jadi kamu bisa merasakan kesejukan dan pemandangan di malam hari. Harganya lumayan murah, hanya berkisar 15 ribuan per orang.\n\n- Area Bermain Anak\nWisata dengan membawa serta anak kecil kadang membuat khawatir yah, namun kamu tidak usah takut karena disana terdapat beberapa sarana bermain anak seperti trampolin, belajar melukis dan masih banyak lagi. Jadi selain berwisata, anak juga bisa sambil belajar.\nBagi kamu yang berwisata tapi tidak bawa bekal, tenang ada deretan food court dengan jajanan yang enak. Disana, juga ada penyewaan hammock untuk duduk-duduk sambil menikmati pemandangan hutan pinus."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/ARGO%20WISATA%20MEGA%20TUTUPAN%20BAROS.png"
+    },
+    {
+      "tag": "bendungan_abah_hantap",
+      "patterns": [
+        "Bendungan Abah Hantap",
+        "Bendungan Hantap Ciherang",
+        "Bendungan Abah Hantap bandung",
+        "wisata Bendungan Abah Hantap",
+        "Bendungan Abah Hantap cangkuang"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Bendungan Abah Hantap\n*Lokasi:* Kecamatan Cangkuang\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* -\n\n*Profil Objek:* Bendungan Hantap Ciherang di Desa Nagrak, Cangkuang, Kabupaten Bandung menjadi salah satu lokasi wisata alternatif warga.\n\nKarena pemandangannya yang bagus seperti Air Terjun Niagara, semakin banyak orang yang berkunjung ke tempat Irigasi Hantap. Irigasi Hantap tepatnya berada di Kampung Gumuruh, Nagrak, Désa Jatisari, Kecamatan Cangkuang, Kabupaten Bandung.\n\nSebenarnya bukan tempat rekreasi. Tapi, hanya sekadar bendungan irigasi yang mengalirkan air kesawah-sawah dan kebun petani di sekitar Banjaran-Cangkuang-Soréang.\n\nSumber airnya dari Cisangkuy, Pangaléngan. Bendungan yang luasnya kurang lebih 2.711 héktar ini dibangun pada zaman Belanda tahun 1903. Memang tampak kokoh kalau yang bikinnya orang Belanda.\n\nTerutama, pada hari Sabtu dan Minggu, Irigasi Hantap banyak dikunjungi para wisatawan.\n\n*Fasilitas (Saran dan Prasarana):* Warung-warung tenda tempat pedagang berjualan makanan; Tukang sewa ban untuk berenang; Tukang sewa kuda; Wc umum; hingga penjual jasa tempat selfie. Juga tenda-tenda yang bertikar."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/BENDUNGAN%20ABAH%20HANTAP.png"
+    },
+    {
+      "tag": "ranca_cangkuang",
+      "patterns": [
+        "Ranca Cangkuang",
+        "Ranca Cangkuang gambung",
+        "perkemahan Ranca Cangkuang",
+        "bumi perkemahan Ranca Cangkuang",
+        "Ranca Cangkuang ciwidey"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Ranca Cangkuang\n*Lokasi:* Kecamatan Pasirjambu\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp.15.000/orang/malam\n\n*Profil Objek:* Ranca Cangkuang, bumi perkemahan lembah terbuka dihiasi sungai kecil tenang tidak terlalu deras nan asri yang mengalir di tengahnya. Dikelilingi bukit dan Perkebunan teh elok menghijau memanjakan mata viewnya bikin mata seger abiss. Bumi Perkemahan Ranca Cangkuang PPTK Gambung Tempat yang enak untuk Kemping bersama keluarga atau sekedar piknik asik banget di tempat ini. Bumi Perkemahan Ranca Cangkuang PPTK Gambung beralamat lengkap di Desa Mekarsari Kecamatatan Pasirjambu Kabupaten Bandung Jawa Barat yang telah memperoleh sertifikasi CHSE dari KEMENPAREKRAF Republik Indonesia.\n\n*Fasilitas (Saran dan Prasarana):* Fasilitas Umum yang tersedia di Bumi Perkemahan Ranca Cangkuang hari ini yaitu: Toilet yang berjumlah 25 unit, Musholla, Warung Camp, Pusat Informasi.\n\nKapasitas tampung Bumi Perkemahan Ranca Cangkuang PPTk Gambung ini menurut penuturan pengelola adalah kurang lebih 500 unit tenda. Jika dikalkulasi dengan dengan orang artinya 1000 tenda jenis tenda Dome dikali 4 orang jadi total kapaasitas tampung nya 2000 orang."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/RANCA%20CANGKUANG.png"
+    },
+    {
+      "tag": "sebe_adventure_pangalengan",
+      "patterns": [
+        "Sebe Adventure Pangalengan bandung",
+        "Sebe Adventure Pangalengan",
+        "wisata Sebe Adventure Pangalengan",
+        "Sebe Adventure"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Sebe Adventure Pangalengan\n*Lokasi:* Kecamatan Pangalengan\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* -\n\n*Profil Objek:* Sebe Adventure adalah obyek wisata keluarga dengan fasilitas utamanya yaitu wahana bermain ATV. Wisata keluarga ini menawarkan beberapa wahana permainan dengan harag yang relatif standar. Wisata ini berada di daerah pangalengan yang menawarkan pemandangan alam yang sangat memanjakan mata serta kondisi udara yang sagat sejuk. Sehingga sangat cocok untuk dijadikan tempat wisata sekaligus juga untuk menguji kebaranian kita.\n\n*Fasilitas (Saran dan Prasarana):* Kafe, toilet, Lahan parkir, arena ATV, Arung Jeram, dll."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/SEBE%20ADVENTURRE%20PANGALENGAN.png"
+    },
+    {
+      "tag": "taman_dcakra",
+      "patterns": [
+        "Taman D'Cakra bandung",
+        "kolam renang Taman D'Cakra",
+        "wisata kolam renang Taman D'Cakra",
+        "wisata Taman D'Cakra",
+        "Taman D'Cakra cimaung",
+        "Taman D'Cakra",
+        "taman dcakra"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Taman D'Cakra (Kolam Renang)\n*Lokasi:* Kecamatan Cimaung\n*Jenis Objek Wisata:* Wisata Alam\n*Harga Tiket:* Rp. 10.000,- s/d Rp. 25.000,-\n\n*Profil Objek:* Untuk masuk ke destinasi wisata ini anda perlu perjuangan tanjakan yang di samping kiri dan kanan wilayah ini cukup menarik, Akan tetapi hasil perjuangan anda akan terbayar saat sampai tujuan Taman D’Cakra dengan di sambut udara yang segar pemandangan yang menyegarkan mata, sungguh alami dan asri.\n\n*Fasilitas (Saran dan Prasarana):* Fasilitas yang ditawarkan pun sangat menarik dan menjanjikan, antara lain waterboom kolamnya memiliki 3 kolam dewasa dan anak-anak, cafe, lesehan, rumah makan, edukasi anak juga disediakan seperti salah satunya mandi bola. Lokasi masuk dari Desa Dipinang Kecamatan Cimaung Kabupaten Bandung Selatan."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/TAMAN%20DCAKRA%20(KOLAMRENANG).png"
+    },
+    {
+      "tag": "kawah_wayang",
+      "patterns": [
+        "Kawah Wayang bandung",
+        "Kawah Wayang windu",
+        "wisata Kawah Wayang",
+        "Kawah Wayang pangalengan"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Kawah Wayang\n*Lokasi:* Kecamatan Pangalengan\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 10.000,-\n\n*Profil Objek:* Kawah Wayang merupakan kawah dari Gunung Wayang, yang mana kawah yang adadi sekitaran Kertamanah terdiri dari dua gunung kembar yaitu Gunung Wayang dan Gunung Windu, kedua gunung itu memeliki tempat wisata masing-masing, untuk Gunung Windu tekenal akan kebun teh nya, dan untuk Gunung Wayang tekenal akan kawah wayang nya, dan kedua gunung kembar ini akif dan mengeluarkan gas alam, dan gas alam tersebut dimanfaatkan untuk di kelola menjadi listrik yaitu Pembangkit Listrik Tenaga Gas (PLTG).\n\n*Fasilitas (Saran dan Prasarana):* Untuk saat ini kawasan kawah wayang minim fasilitas yang memadai seperti tempat ibadah, parkir dan warung masih di bangun secara sederhana, akan tetapi sepertinya kedepan akan dibangun fasilitas yang lebih mumpuni dan saya sempat bertanya kepada petugas karcis, bahwa kedepannya akan di bangun camp, tempat kemah, tempat parkir di perluas dan akan di kelola seperti tempat wisata pada umumnya, dan mengingat untuk saat ini di kelola oleh masyarakat lokal untuk hal fasilitas masih seadanya."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/KAWAH%20WAYANG.png"
+    },
+    {
+      "tag": "tangga_seribu",
+      "patterns": [
+        "tangga seribu bandung",
+        "tangga seribu",
+        "wisata tangga seribu",
+        "tangga seribu cimenyan",
+        "tangga 1000"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Tangga 1000\n*Lokasi:* Kecamatan Cimenyan\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 3.500,-/orang dan Rp. 5.000,-/orang untuk camping\n\n*Profil Objek:* Wisata alam terbuka jadi salah satu pilihan agar tetap berwisata dengan sehat dan aman di kala pandemi COVID-19. Di Bandung Timur ada salah satu destinasi wisata yang belum banyak orang ketahui dan tentunya bisa jadi alternatif berwisata yaitu bernama Wisata Tangga Seribu.\n\nLokasinya berada di RW18 Desa Cibiru Wetan, Kabupaten Bandung, Jawa Barat. Akses kesana disarankan menggunakan motor karena jalannya yang kecil dan terjal serta menanjak. Meskipun di daerah kabupaten, Tangga seribu dapat diakses melewati jalanan Kota Bandung menuju ke Bandung bagian timur. Tempat wisatanya pun tak jauh dari obyek wisata Batu Kuda Gunung Manglayang.\n\n*Fasilitas (Saran dan Prasarana):* Tangga Seribu juga bisa menjadi salah satu tempat untuk berkemah. Namun sayangnya, Dede mengatakan, hingga tanggap 25 Januari, akses untuk berkemah masih ditutup lantaran adanya imbauan mengenai pembatasan selama pandemic COVID-19. Jam operasional pun diatur hingga pukul 18.00 WIB."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/TANGGA%201000.png"
+    },
+    {
+      "tag": "cantigi_camp",
+      "patterns": [
+        "Cantigi Camp bandung",
+        "Cantigi Camp",
+        "wisata Cantigi Camp",
+        "Cantigi Camp cileunyi",
+        "Cantigi Camp cileunyi bandung",
+        "Cantigi Cileunyi"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Cantigi Camp\n*Lokasi:* Kecamatan Cileunyi\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* -\n\n*Profil Objek:* Cantigi Camp merupakan wana wisata yang terletak di kawasan bandung timur tepatnya di Manjah Beureum, Cileunyi Kulon, Cileunyi, Kab. Bandung.\n\nBerdiri sejak tahun 2004 Cantigi Camp sangat cocok untuk bermacam kegiatan outbond, dengan area seluas 2 hektar di kaki Gunung Manglayang, Cantigi Camp merupakan sebuah destinasi yang memberikan jasa layanan dan pelatihan sumber daya manusia (SDM) dengan menggunakan media alam terbuka. Tidak heran jika wana wisata ini selalu banyak dikunjungi rombongan wisata wanyang menikmati liburan berasama keluarga dan teman.\n\n*Fasilitas (Saran dan Prasarana):* Banyak permainan menarik yang bisa anda nikmati selama liburan di Cantigi Camp terutama untuk ank-anak dan remaja, mulai dari jembatan tali, Maze Runner, Maze Garden, Jaring Laba-laba, Perosotan dan tanh liat buat kura-kura, jembatan goyang dan rafting.\n\nSementara permainan yang cukup menantang dan memerlukan keberanian di sini adalah Flying Fox dengan tinggi sekitar 20 – 30 meter di atas permukaan tanah, dan untuk menikmatinya Harga Sewa Flying Fox di Cantigi Camp Cileunyi Bandung ini adalah sebesar Rp.10.000.\n\nKegiatan atau permainan menarik lainnya yang wajib anda coba juga diantaranya adalah Tangkap Ikan Lele, Tangkap Ikan hingga Lompat Ban. Cantigi Camp Bandung juga menyediakan fasilitas untuk bermalam di alam terbuka yaitu Camping Ground Canti Camp."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/CANTIGI%20CAMP.png"
+    },
+    {
+      "tag": "kolam_renang_darmaga_adiwisastra",
+      "patterns": [
+        "Kolam Renang Darmaga Adiwisastra bandung",
+        "Kolam Renang Darmaga Adiwisastra",
+        "wisata Darmaga Adiwisastra",
+        "Darmaga Adiwisastra",
+        "Kolam Renang Darmaga Adiwisastra ciparay"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Kolam Renang Darmaga Adiwisastra\n*Lokasi:* Kecamatan Ciparay\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 5000,-\n\n*Profil Objek:* Kolam renang Adiwisastra merupakan destinasi wisata yang baru dibuka pada bulan September2021, terletak di Kp. Andir Desa Paktandang Kecamatan Ciparay Kabupaten Bandung. Kolam yang berada di tengah-tengah persawahan ini menyuguhkan pemandangan yang cukup asri dan cukup menyejukan mata.\n\n*Fasilitas (Saran dan Prasarana):* Fasilitas yang tersedia di area tersebut antara lain adalah Kolam renang untuk dewasa, kolam renang anak, Perahu Besar, kantin, dan spot selfie."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/KOLAM%20RENANG%20DARMAGA%20ADIWISASTRA.png"
+    },
+    {
+      "tag": "aborigin_swimming_pool",
+      "patterns": [
+        "Aborigin Swimming Pool bandung",
+        "Aborigin Swimming Pool",
+        "wisata Aborigin Swimming Pool",
+        "Aborigin Swimming",
+        "Aborigin Swimming Pool ciparay"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Aborigin Swimming Pool\n*Lokasi:* Kecamatan Ciparay\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Rp. 30.000,-\n\n*Profil Objek:* Aborigin Swimming pool merupakan wahana wisata pemandian (Kolam renang) dimana di destinasi tersebut terdapat kolam renang air panas(Buatan). Aborigin Swimming Pool terletak di Desa Pakutandang, Kecamatan Ciparay.\n\n*Fasilitas (Saran dan Prasarana):* Fasilitas yang disediakan tidak hanya kolam renang, namun ada juga Studio Musik, Kantin dan lapangan futsal."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/Aborigin%20Swimming%20Pool.png"
+    }
+  ]
+}
