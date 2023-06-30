@@ -7,3 +7,5 @@ nltk
 requests==2.31.0
 python-dotenv
 redis
+Sastrawi
+scikit-learn
