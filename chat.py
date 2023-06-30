@@ -1,4 +1,3 @@
-import random
 import json
 import torch
 import redis
@@ -62,9 +61,8 @@ def get_response(msg):
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                responses = intent['responses']
+                response = intent.get('responses')
                 image_url = intent.get('image_url')
-                response = random.choice(responses)
                 return response, image_url
 
 
