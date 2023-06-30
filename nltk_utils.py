@@ -1,11 +1,18 @@
 import nltk
 nltk.download('punkt')
+nltk.download('stopwords')
 import numpy as np
-from nltk.stem.porter import PorterStemmer
-stemmer = PorterStemmer()
+from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+
+factory = StemmerFactory() 
+stemmer = factory.create_stemmer()
+
+indonesian_stopwords = nltk.corpus.stopwords.words('indonesian')
 
 def tokenize(sentence):
-    return nltk.word_tokenize(sentence)
+    words = nltk.word_tokenize(sentence)
+    words = [w for w in words if w not in indonesian_stopwords]
+    return words
 
 def stem(word):
     return stemmer.stem(word.lower())
