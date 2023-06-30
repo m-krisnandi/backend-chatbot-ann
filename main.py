@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from threading import Thread
-from flask import Flask, request, jsonify
+from flask import Flask
 from chat import get_response
 import telegram
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters

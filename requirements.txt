@@ -4,7 +4,6 @@ python-telegram-bot==13.7
 torch==2.0.1
 numpy==1.22.3
 nltk
-requests==2.31.0
 python-dotenv
 redis
 Sastrawi
