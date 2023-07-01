@@ -61,7 +61,8 @@ def get_response(msg):
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                response = intent.get('responses')
+                responses = intent['responses']
+                response = responses[0]
                 image_url = intent.get('image_url')
                 return response, image_url
 
