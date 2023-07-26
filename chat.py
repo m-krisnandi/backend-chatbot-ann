@@ -3,7 +3,7 @@ import torch
 import redis
 import os
 from dotenv import load_dotenv
-from model import NeuralNet
+from model import ANeuralNet
 from nltk_utils import bag_of_words, tokenize
 load_dotenv()
 
@@ -13,7 +13,7 @@ device = torch.device('cpu')
 # with open('intents.json', 'r') as json_data:
 #     intents = json.load(json_data)
 
-# Koneksi ke Memorystore Redis
+# Koneksi ke Redis
 redis_client = redis.Redis(
     host=os.getenv('REDIS_HOST', 'localhost'),
     port=int(os.getenv('REDIS_PORT', 6379)),
@@ -22,9 +22,9 @@ redis_client = redis.Redis(
 )
 
 # Unggah data intents ke Redis 
-# with open('intents.json', 'r') as f:
-#     intents = json.load(f)
-# redis_client.set('intents', json.dumps(intents))
+with open('intents.json', 'r') as f:
+    intents = json.load(f)
+redis_client.set('intents', json.dumps(intents))
 
 # Ambil data intents dari Redis
 intents = json.loads(redis_client.get('intents'))
@@ -39,11 +39,18 @@ all_words = data['all_words']
 tags = data['tags']
 model_state = data["model_state"]
 
-model = NeuralNet(input_size, hidden_size, output_size).to(device)
+model = ANeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "Karen"
+
+# Definisi kelas untuk response dengan data yang berbeda-beda
+class ChatResponse:
+    def __init__(self, response, image_url=None, coordinates=None):
+        self.response = response
+        self.image_url = image_url
+        self.coordinates = coordinates
 
 def get_response(msg):
     sentence = tokenize(msg)
@@ -65,10 +72,11 @@ def get_response(msg):
                 responses = intent['responses']
                 response = responses[0]
                 image_url = intent.get('image_url')
-                return response, image_url
+                coordinates = intent.get('coordinates')
+                return ChatResponse(response, image_url, coordinates)
 
 
-    return "Maaf saya tidak mengerti. Mohon berikan pertanyaan terkait objek wisata di Kabupaten Bandung.", ""
+    return ChatResponse("Maaf saya tidak mengerti. Mohon berikan pertanyaan terkait objek wisata di Kabupaten Bandung.")
 
 if __name__ == "__main__":
     print("Let's chat! (type 'quit' to exit)")
