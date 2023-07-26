@@ -1,10 +1,11 @@
-Flask==2.1.0
-gunicorn==20.1.0
+Flask
+gunicorn
 python-telegram-bot==13.7
-torch==2.0.1
-numpy==1.22.3
+torch
+numpy
 nltk
 python-dotenv
 redis
 Sastrawi
 scikit-learn
+matplotlib
