@@ -6,7 +6,7 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 
 from nltk_utils import bag_of_words, tokenize, stem
-from model import NeuralNet
+from model import ANeuralNet
 
 with open('intents.json', 'r') as f:
     intents = json.load(f)
@@ -87,7 +87,7 @@ train_loader = DataLoader(dataset=dataset,
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-model = NeuralNet(input_size, hidden_size, output_size).to(device)
+model = ANeuralNet(input_size, hidden_size, output_size).to(device)
 
 # Loss and optimizer
 criterion = nn.CrossEntropyLoss()
