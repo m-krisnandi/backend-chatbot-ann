@@ -24,20 +24,26 @@ def echo(update, context):
     text = update.message.text
 
     # check if text is valid
-    response, image_url = get_response(text)
+    chat_response = get_response(text)
 
     # send response to Telegram
-    if image_url:
+    if chat_response.image_url:
         response_message = context.bot.send_message(
-            chat_id=chat_id, text=response + "\n\n*Mengirim gambar...* ", parse_mode=telegram.ParseMode.MARKDOWN)
+            chat_id=chat_id, text=f"{chat_response.response}\n\n*Mengirim gambar...*", parse_mode=telegram.ParseMode.MARKDOWN)
         
         # Dapatkan URL publik gambar yang diunggah
-        image_public_url = image_url
+        image_public_url = chat_response.image_url
         
         context.bot.send_photo(chat_id=chat_id, photo=image_public_url)
-        response_message.edit_text(response + "\n\n*Gambar terkirim!*", parse_mode=telegram.ParseMode.MARKDOWN)
+        response_message.edit_text(f"{chat_response.response}\n\n*Gambar terkirim!*", parse_mode=telegram.ParseMode.MARKDOWN)
+
+         # Tampilkan peta jika koordinat tersedia
+        if chat_response.coordinates:
+            lat, lon = chat_response.coordinates.split(',')
+            context.bot.send_message(chat_id=chat_id, text=f"*Lokasi di Peta:*", parse_mode=telegram.ParseMode.MARKDOWN)
+            context.bot.send_location(chat_id=chat_id, latitude=float(lat), longitude=float(lon))
     else:
-        context.bot.send_message(chat_id=chat_id, text=response, parse_mode=telegram.ParseMode.MARKDOWN)
+        context.bot.send_message(chat_id=chat_id, text=f"{chat_response.response}", parse_mode=telegram.ParseMode.MARKDOWN)
 
 
 updater = Updater(token=bot_token, use_context=True)
