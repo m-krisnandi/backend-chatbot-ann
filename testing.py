@@ -3,7 +3,7 @@ import json
 import numpy as np
 
 from nltk_utils import bag_of_words, tokenize, stem
-from model import NeuralNet
+from model import ANeuralNet
 
 ignore_words = ['?', '.', '!', ',', '"', '’', '‘', '“', '”', '(', ')', '[', ']', '{', '}']
 
@@ -16,7 +16,7 @@ all_words = data["all_words"]
 tags = data["tags"]
 model_state = data["model_state"]
 
-model = NeuralNet(input_size, hidden_size, output_size)
+model = ANeuralNet(input_size, hidden_size, output_size)
 model.load_state_dict(model_state)
 model.eval()
 
