@@ -1,0 +1,31 @@
+{
+  "intents": [
+    {
+      "tag": "palalangon_park",
+      "patterns": [
+        "Palalangon Park ciwidey",
+        "Palalangon Park bandung",
+        "Palalangon Park ciwidey bandung",
+        "Palalangon Park"
+      ],
+      "responses": [
+        "*Nama Objek Wisata:* Palalangon Park\n*Lokasi:* Kecamatan Pasirjambu\n*Jenis Objek Wisata:* Wisata Buatan\n*Harga Tiket:* Dewasa Rp. 30.000,- Anak-anak Rp. 15.000,-\n\n*Profil Objek:* Palalangon Park Ciwidey merupakan salah satu obyek wisata baru di Jawa Barat yang sedang hits dan menjadi destinasi menarik bagi wisatawan. Harga tiket masuk yang murah menjadi salah satu kelebihan, dimana terdapat wahana-wahana menarik yang tersaji di sana. Merupakan tempat wisata dengan konsep modern di Bandung. Meski banyak juga wisata hits di Bandung, tetapi Palalangon Park juga punya banyak peminat.\n\nSpot foto tak pernah ketinggalan untuk dihadirkan di wisata-wisata baru. Karena memang saat ini aktifitas hunting foto selfie memang sangat digemari. Di sana terdapat spot foto terbaik, antara lain: gardu pandang, balon udara, bingkai cinta,jembatan warna-warni, spot kapal, rumah hobbit,istana mini, sign board, taman bunga, dan masih banyak yang lainnya.\n\n*Rute dan Lokasi*\nBuat kamu yang belum tahu alamat wisata keren ini, lokasinya ada di Jalan Gambung, Dusun Cisondari, Desa Cibodas, Kecamatan Pasirjambu, Bandung, Jawa Barat. Untuk rute, dari Jalan Tol Soreang kemudian mengarah ke Jalan raya Ciwidey.Lokasinya tak jauh kok dari kawasan Situ Patenggang.\n\nTempat wisata ini buka setiap hari (senin sampai minggu) mulai pukul 07.30 sampai dengan pukul 18.00 WIB.\n\n*Fasilitas (Saran dan Prasarana):*\n- Kolam Renang Dewasa dan Anak\nBerenang di kolam menjadi aktifitas yang umum digemari. Untuk orang dewasa sudah ada kolam renang khusus, dengan kedalaman yang sudah sesuai standarisasi. Kamu bisa berenang sesuka hati di sana, apalagi ketika kondisi cuaca sedang panas-panasnya. Maka, kolam renang menjadi opsi yang tepat untuk menyegarkan badan.\n\n- Kolam Renang Air Panas\nMasih ada lagi kolam renang yang lain di lokasi tersebut dengan air hangat. Pastinya kamu dapat merasakan sensasi tersendiri dengan berendam di kolam ini. Terutama ketika suhu udara sedang dingin, maka kolam air hangat menjadi opsi menarik.\n\nWisata yang seru ini semakin lengkap dengan adanya fasilitas umum. Fasilits yang tersedia antara lain; area parkir kendaraan, gazebo, restoran, dan toilet. Ada juga area hiburan seperti karaoke. Jadi, bisa buatmu tak bosan dengan adanya nuansa musik. Bila kamu ingin membeli makanan, maka restoran di sana menyediakan aneka makanan khas Jawa Barat, seperti; nasiliwet, pepes, ikan bakar, ayam goreng, sop, tahu, tempe, dan lain sebagainya. Ada juga villa yang diperuntukkan bagi para pengunjung yang ingin bermalam di sana. Fasilitas di villa juga lengkap dengan suasana yang nyaman. Panorama alam disekitar villa juga sangat bagus."
+      ],
+      "image_url": "https://storage.googleapis.com/chatbot_wisata/PALALANGON%20PARK.png",
+      "coordinates": "-7.110564,107.495545"
+    },
+    {
+      "tag": "tiket_palalangon_park",
+      "patterns": [
+        "tiket palalangon park",
+        "tiket wisata palalangon park",
+        "tiket masuk palalangon park",
+        "tiket palalangon park kabupaten bandung",
+        "harga tiket palalangon park"
+      ],
+      "responses": [
+        "*Harga Tiket Palalangon Park:* Dewasa Rp. 30.000,- Anak-anak Rp. 15.000,-"
+      ]
+    }
+  ]
+}
