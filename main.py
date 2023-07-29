@@ -72,7 +72,7 @@ dispatcher.add_handler(MessageHandler(Filters.text, echo))
 # Start webhook
 updater = Updater(bot_token, use_context=True)
 updater.start_webhook(listen="0.0.0.0",
-                      port=int(os.environ.get('PORT', 5000)),
+                      port=int(os.environ.get('PORT', 8080)),
                       url_path=bot_token,
                       webhook_url='https://<your-app-url>/' + bot_token)
 
