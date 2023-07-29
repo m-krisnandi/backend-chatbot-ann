@@ -67,14 +67,16 @@ updater.dispatcher.add_handler(CommandHandler('start', start))
 updater.dispatcher.add_handler(MessageHandler(Filters.text, echo))
 
 # jalankan webhook production mode tes menggunakan ngrok
-# updater.start_webhook(listen="0.0.0.0",
-#                       url_path=bot_token,
-#                       webhook_url='https://1551-103-147-9-232.ngrok-free.app/' + bot_token)
+updater.start_webhook(listen="0.0.0.0",
+                      port=int(os.environ.get('PORT', 8443)),
+                      url_path=bot_token,
+                      webhook_url='https://95bd-103-147-9-232.ngrok-free.app/' + bot_token)
 
 # jalankan webhook production mode menggunakan cloud run
-updater.start_webhook(listen="0.0.0.0",
-                      url_path=bot_token,
-                      webhook_url='https://backend-chatboot-ann-5j2ubmycza-et.a.run.app/' + bot_token)
+# updater.start_webhook(listen="0.0.0.0",
+#                       port=int(os.environ.get('PORT', 8443)),
+#                       url_path=bot_token,
+#                       webhook_url='https://backend-chatboot-ann-5j2ubmycza-et.a.run.app/' + bot_token)
 
 # Hentikan webhook yang sedang berjalan
 # updater.bot.delete_webhook()
