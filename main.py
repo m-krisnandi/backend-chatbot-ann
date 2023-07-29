@@ -66,16 +66,22 @@ updater.dispatcher.add_handler(CommandHandler('start', start))
 # Tambahkan handler untuk echo/respons teks
 updater.dispatcher.add_handler(MessageHandler(Filters.text, echo))
 
-# jalankan webhook production mode
+# jalankan webhook production mode tes menggunakan ngrok
 # updater.start_webhook(listen="0.0.0.0",
 #                       url_path=bot_token,
-#                       webhook_url='https://backend-chatbot-ann-6grmpjpk2q-et.a.run.app/' + bot_token)
+#                       webhook_url='https://1551-103-147-9-232.ngrok-free.app/' + bot_token)
+
+# jalankan webhook production mode menggunakan cloud run
+updater.start_webhook(listen="0.0.0.0",
+                      url_path=bot_token,
+                      webhook_url='https://backend-chatboot-ann-5j2ubmycza-et.a.run.app/' + bot_token)
 
 # Hentikan webhook yang sedang berjalan
-updater.bot.delete_webhook()
+# updater.bot.delete_webhook()
 
 # Jalankan bot dalam mode polling (untuk development)
-updater.start_polling()
+# updater.start_polling()
+# updater.idle()
 
 if __name__ == '__main__':
     app.run(debug=True)
