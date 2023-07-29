@@ -64,17 +64,20 @@ def echo(update, context):
 def ping():
     return "Bot is alive!"
 
-# Dispatcher to handle bot commands
-dispatcher = Updater.dispatcher
-dispatcher.add_handler(CommandHandler('start', start))
-dispatcher.add_handler(MessageHandler(Filters.text, echo))
-
-# Start webhook
 updater = Updater(bot_token, use_context=True)
+
+# tambahkan handler dengan mengakses dispatcher dari updater
+updater.dispatcher.add_handler(CommandHandler('start', start))
+updater.dispatcher.add_handler(MessageHandler(Filters.text, echo))
+
+# jalankan webhook production mode
 updater.start_webhook(listen="0.0.0.0",
                       port=int(os.environ.get('PORT', 8080)),
                       url_path=bot_token,
                       webhook_url='https://backend-chatbot-ann-6grmpjpk2q-et.a.run.app/' + bot_token)
+
+# jalankan webhook development mode
+# updater.start_polling()
 
 if __name__ == '__main__':
     app.run(debug=True)
