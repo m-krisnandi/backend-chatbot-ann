@@ -5,3 +5,10 @@ README.md
 *.pyd
 __pycache__
 .pytest_cache
+app.yaml
+intents-example.json
+intents_old.json
+testing.py
+testing_data.json
+train_with_graf.py
+train.py
