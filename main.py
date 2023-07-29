@@ -74,7 +74,7 @@ updater = Updater(bot_token, use_context=True)
 updater.start_webhook(listen="0.0.0.0",
                       port=int(os.environ.get('PORT', 8080)),
                       url_path=bot_token,
-                      webhook_url='https://<your-app-url>/' + bot_token)
+                      webhook_url='https://backend-chatbot-ann-6grmpjpk2q-et.a.run.app/' + bot_token)
 
 if __name__ == '__main__':
     app.run(debug=True)
