@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from flask import Flask, request
+from flask import Flask
 from chat import get_response
 import telegram
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
@@ -18,12 +18,6 @@ def start(update, context):
     context.bot.send_message(
         chat_id=chat_id, text="Halo. Selamat datang di chatbot informasi objek wisata di Kabupaten Bandung. Silahkan ketikkan pertanyaan anda.")
 
-# Fungsi handler untuk webhook
-@app.route('/' + bot_token, methods=['POST'])
-def webhook():
-    update = telegram.Update.de_json(request.get_json(force=True), bot)
-    dispatcher.process_update(update)
-    return 'ok'
 
 def echo(update, context):
     """
@@ -64,20 +58,24 @@ def echo(update, context):
 def ping():
     return "Bot is alive!"
 
+# Membuat objek Updater dengan menggunakan token bot dan mode context
 updater = Updater(bot_token, use_context=True)
 
-# tambahkan handler dengan mengakses dispatcher dari updater
+# Tambahkan handler untuk command /start
 updater.dispatcher.add_handler(CommandHandler('start', start))
+# Tambahkan handler untuk echo/respons teks
 updater.dispatcher.add_handler(MessageHandler(Filters.text, echo))
 
 # jalankan webhook production mode
-updater.start_webhook(listen="0.0.0.0",
-                      port=int(os.environ.get('PORT', 8080)),
-                      url_path=bot_token,
-                      webhook_url='https://backend-chatbot-ann-6grmpjpk2q-et.a.run.app/' + bot_token)
+# updater.start_webhook(listen="0.0.0.0",
+#                       url_path=bot_token,
+#                       webhook_url='https://backend-chatbot-ann-6grmpjpk2q-et.a.run.app/' + bot_token)
 
-# jalankan webhook development mode
-# updater.start_polling()
+# Hentikan webhook yang sedang berjalan
+updater.bot.delete_webhook()
+
+# Jalankan bot dalam mode polling (untuk development)
+updater.start_polling()
 
 if __name__ == '__main__':
     app.run(debug=True)
