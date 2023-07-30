@@ -1,14 +1,14 @@
 import json
-import torch
-import redis
+import torch # Mengimpor library PyTorch untuk membuat dan melatih model neural network.
+import redis # Mengimpor modul redis untuk menghubungkan ke Redis server.
 import os
 from dotenv import load_dotenv
 from model import ANeuralNet
 from nltk_utils import bag_of_words, tokenize
 load_dotenv()
 
+# Menentukan device yang akan digunakan untuk melatih model (dalam hal ini CPU).
 device = torch.device('cpu')
-
 
 # with open('intents.json', 'r') as json_data:
 #     intents = json.load(json_data)
@@ -32,13 +32,17 @@ intents = json.loads(redis_client.get('intents'))
 FILE = "data.pth"
 data = torch.load(FILE, map_location=device)
 
+# Menyimpan nilai input_size, hidden_size dan output_size dari data yang telah dimuat
 input_size = data["input_size"]
 hidden_size = data["hidden_size"]
 output_size = data["output_size"]
+# Menyimpan semua kata yang ditemukan dan dan tag yang digunakan dalam data training.
 all_words = data['all_words']
 tags = data['tags']
+# Menyimpan state dictionary dari model yang telah dilatih.
 model_state = data["model_state"]
 
+# Membuat instance dari model neural network dengan menggunakan nilai yang telah dimuat.
 model = ANeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
@@ -53,19 +57,33 @@ class ChatResponse:
         self.coordinates = coordinates
 
 def get_response(msg):
+    """
+        Fungsi untuk menghasilkan respon chatbot berdasarkan input teks yang diberikan.
+    """
+    # Memproses pesan pengguna dengan fungsi tokenize dari modul nltk_utils.
     sentence = tokenize(msg)
+    # Mengubah pesan pengguna menjadi vektor bag-of-words dengan menggunakan fungsi bag_of_words dari modul nltk_utils.
     X = bag_of_words(sentence, all_words)
+    # Mengubah vektor bag-of-words menjadi tensor.
     X = X.reshape(1, X.shape[0])
+    # Mengubah vektor X menjadi tensor PyTorch dan memindahkannya ke device yang telah ditentukan sebelumnya.
     X = torch.from_numpy(X).to(device)
 
+    # Melakukan inferensi pada model dengan input X.
     output = model(X)
+    # Mencari index dengan nilai probabilitas terbesar pada output.
     _, predicted = torch.max(output, dim=1)
 
+    # Menentukan tag yang sesuai dengan index predicted.
     tag = tags[predicted.item()]
 
+    # Menghitung softmax dari output dan print.
     probs = torch.softmax(output, dim=1)
     print(probs)
+    # Menentukan probabilitas prediksi.
     prob = probs[0][predicted.item()]
+    # Jika probabilitas prediksi lebih besar dari threshold (0.75),
+    # maka ambil respons dari intents.json berdasarkan tag yang sesuai.
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
@@ -75,9 +93,10 @@ def get_response(msg):
                 coordinates = intent.get('coordinates')
                 return ChatResponse(response, image_url, coordinates)
 
-
+    # Jika probabilitas prediksi lebih kecil dari threshold, maka kembalikan respons default.
     return ChatResponse("Maaf saya tidak mengerti. Mohon berikan pertanyaan terkait objek wisata di Kabupaten Bandung.")
 
+# Fungsi untuk mengambil respon chatbot berdasarkan input teks yang diberikan.
 if __name__ == "__main__":
     print("Let's chat! (type 'quit' to exit)")
     while True:
@@ -85,7 +104,9 @@ if __name__ == "__main__":
         if sentence == "quit":
             break
 
-        response, image_url = get_response(sentence)
-        print("Bot:", response)
-        if image_url:
-            print("Image URL:", image_url)
+        chat_response = get_response(sentence)
+        print("Bot:", chat_response.response)
+        if chat_response.image_url:
+            print("Image URL:", chat_response.image_url)
+        if chat_response.coordinates:
+            print("Coordinates:", chat_response.coordinates)
