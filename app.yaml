@@ -6,3 +6,4 @@ env_variables:
     REDIS_HOST: 'redis-19937.c1.asia-northeast1-1.gce.cloud.redislabs.com'
     REDIS_PORT: '19937'
     REDIS_PASSWORD: '9HdXn66XKOrvvAYwVpON3yZdwUzeUWEO'
+    PORT: '8443'
