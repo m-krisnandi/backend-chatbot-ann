@@ -66,24 +66,10 @@ updater.dispatcher.add_handler(CommandHandler('start', start))
 # Tambahkan handler untuk echo/respons teks
 updater.dispatcher.add_handler(MessageHandler(Filters.text, echo))
 
-# jalankan webhook production mode tes menggunakan ngrok
-updater.start_webhook(listen="0.0.0.0",
-                      port=int(os.environ.get('PORT', 443)),
-                      url_path=bot_token,
-                      webhook_url='https://95bd-103-147-9-232.ngrok-free.app/' + bot_token)
-
-# jalankan webhook production mode menggunakan cloud run
-# updater.start_webhook(listen="0.0.0.0",
-#                       port=int(os.environ.get('PORT', 443)),
-#                       url_path=bot_token,
-#                       webhook_url='https://backend-chatboot-ann-5j2ubmycza-et.a.run.app/' + bot_token)
-
-# Hentikan webhook yang sedang berjalan
-# updater.bot.delete_webhook()
-
-# Jalankan bot dalam mode polling (untuk development)
-# updater.start_polling()
-# updater.idle()
+# Memulai polling atau pengambilan pesan dari server Telegram oleh bot
+updater.start_polling()
+# Menjalankan updater secara terus-menerus, sehingga bot akan selalu aktif dan siap menerima pesan dari pengguna
+updater.idle()
 
 if __name__ == '__main__':
     app.run(debug=True)
