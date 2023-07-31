@@ -19,8 +19,8 @@ def stem(word):
 
 def bag_of_words(tokenized_sentence, all_words):
     """
-    sentence = ["info", "wisata", "kabupaten", "bandung"]
-    words = ["tolong", "berikan", "info", "wisata", "kabupaten", "bandung", "dong"]
+    tokenized_sentence = ["info", "wisata", "kawah", "putih", "kabupaten", "bandung"]
+    all_words = ["info", "wisata", "kawah", "putih", "di", "kabupaten", "bandung", "yang"]
     bag = [0, 0, 1, 1, 1, 1, 0]
     """
 
@@ -32,9 +32,20 @@ def bag_of_words(tokenized_sentence, all_words):
 
     return bag
 
-# sentence = ["info", "wisata", "kabupaten", "bandung"]
-# words = ["tolong", "berikan", "info", "wisata", "kabupaten", "bandung", "dong"]
-# bag = bag_of_words(sentence, words)
+# Testing Tokenize
+# sentence = "Beritahu Saya dan Infokan Wisata Kawah Putih di Kabupaten Bandung!"
+# words = tokenize(sentence)
+# print(words)
+
+# Testing Stem
+# word = ['Beritahu', 'Saya', 'Infokan', 'Wisata', 'Kawah', 'Putih', 'Kabupaten', 'Bandung', '!']
+# stem = [stem(w) for w in word]
+# print(stem)
+
+# Testing Bag of Words
+# tokenized_sentence = ["info", "wisata", "kawah", "putih", "kabupaten", "bandung"]
+# all_words = ["info", "wisata", "kawah", "putih", "di", "kabupaten", "bandung", "yang"]
+# bag = bag_of_words(tokenized_sentence, all_words)
 # print(bag)
 
 
