@@ -12,3 +12,5 @@ testing.py
 testing_data.json
 train_with_graf.py
 train.py
+data2.pth
+data3.pth
