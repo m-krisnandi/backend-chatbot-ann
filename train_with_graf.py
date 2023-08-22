@@ -39,11 +39,12 @@ for intent in intents['intents']:
     if 'coordinates' in intent:
         coordinates.append(intent['coordinates'])
 
-# Preprocessing teks: stemming dan penghapusan tanda baca pada kata-kata
-ignore_words = ['?', '.', '!', ',', '"', "'", '`', '(', ')', '-', '[',
-                ']', '{', '}', ';', ':', '@', '#', '$', '%', '^', '&',
-                '*', '_', '+', '=', '\\', '|', '/', '~', '<', '>', '€']
-all_words = [stem(w) for w in all_words if w not in ignore_words]
+# mempertahankan sebagian tanda baca dalam kata-kata
+# ignore_words = ['?', '.', '!', ',']
+# all_words = [stem(w) for w in all_words if w not in ignore_words]
+
+# Preprocessing teks: case folding dan stemming
+all_words = [stem(w) for w in all_words]
 
 # Menghapus duplikasi dan melakukan pengurutan pada kata-kata dan tag
 all_words = sorted(set(all_words))
@@ -78,11 +79,11 @@ print("X_train: ", X_train[:, 0])
 print("y_train: ", y_train)
 
 # Definisikan hyperparameter untuk pelatihan model
-num_epochs = 1000
+num_epochs = 500
 batch_size = 8
 learning_rate = 0.001
 input_size = len(X_train[0])
-hidden_size = 8
+hidden_size = 128
 output_size = len(tags)
 print(input_size, output_size)
 
@@ -198,7 +199,12 @@ data = {
     "tags": tags
 }
 
+# skenario 1
 FILE = "data.pth"
+# skenario 2
+# FILE = "data2.pth"
+# skenario 3
+# FILE = "data3.pth"
 torch.save(data, FILE)
 
 print(f'Pelatihan selesai. Model disimpan di {FILE}')
