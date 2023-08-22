@@ -8,9 +8,11 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 app = Flask(__name__)
 load_dotenv()
 
-# replace with your Telegram API token
+# Telegram API token
 bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
 bot = telegram.Bot(token=bot_token)
+# Membuat objek Updater dengan menggunakan token bot dan mode context
+updater = Updater(bot_token, use_context=True)
 
 # Fungsi handler untuk command /start
 def start(update, context):
@@ -57,9 +59,6 @@ def echo(update, context):
 @app.route('/ping')
 def ping():
     return "Bot is alive!"
-
-# Membuat objek Updater dengan menggunakan token bot dan mode context
-updater = Updater(bot_token, use_context=True)
 
 # Tambahkan handler untuk command /start
 updater.dispatcher.add_handler(CommandHandler('start', start))
