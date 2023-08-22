@@ -1,15 +1,699 @@
 [
     {
-      "sentence": "Beritahu Saya dan Infokan Wisata Kawah Putih di Kabupaten Bandung!",
-      "tag": "kawah_putih"
+      "tag": "tempat_wisata_kabupaten_bandung",
+      "sentence": "daftar tempat wisata kabupaten bandung?"
     },
     {
-      "sentence": "Ada apa saja tempat wisata di kabupaten bandung?",
-      "tag": "tempat_wisata"
+      "tag": "tempat_wisata_kabupaten_bandung",
+      "sentence": "Tolong infokan tempat wisata di kabupaten bandung!"
     },
     {
-        "sentence": "Infokan tempat wisata pesona nirwana soreang bandung!",
-        "tag": "pesona_nirwana_waterpark"
+      "tag": "jenis_wisata_kabupaten_bandung",
+      "sentence": "jenis wisata di kabupaten bandung apa saja?"
+    },
+    {
+      "tag": "jenis_wisata_kabupaten_bandung",
+      "sentence": "Beritahu saya Jenis Wisata di Kabupaten Bandung!"
+    },
+    {
+      "tag": "wisata_air_terjun",
+      "sentence": "air terjun di kabupaten bandung"
+    },
+    {
+      "tag": "wisata_air_terjun",
+      "sentence": "Tolong beritahu wisata yang memiliki nuansa air terjun di kabupaten bandung!"
+    },
+    {
+      "tag": "wisata_kolam_renang",
+      "sentence": "Beritahu saya wisata yang memiliki kolam renang"
+    },
+    {
+      "tag": "wisata_kolam_renang",
+      "sentence": "kolam renang di kabupaten bandung"
+    },
+    {
+      "tag": "wisata_pegunungan",
+      "sentence": "nuansa pegunungan"
+    },
+    {
+      "tag": "wisata_pegunungan",
+      "sentence": "Apakah ada tempat wisata di Kabupaten Bandung dengan pemandangan pegunungan yang indah?"
+    },
+    {
+      "tag": "wisata_taman",
+      "sentence": "nuansa taman"
+    },
+    {
+      "tag": "wisata_taman",
+      "sentence": "Saya ingin tahu apakah ada taman yang bagus untuk dikunjungi di Kabupaten Bandung."
+    },
+    {
+      "tag": "wisata_perkemahan",
+      "sentence": "berkemah di kabupaten bandung"
+    },
+    {
+      "tag": "wisata_perkemahan",
+      "sentence": "Apakah ada tempat wisata yang cocok untuk berkemah di Kabupaten Bandung?"
+    },
+    {
+      "tag": "wisata_pemandian_air_panas",
+      "sentence": "wisata pemandian air panas"
+    },
+    {
+      "tag": "wisata_pemandian_air_panas",
+      "sentence": "Tolong rekomendasikan tempat wisata pemandian air panas di sekitar Kabupaten Bandung."
+    },
+    {
+      "tag": "wisata_danau",
+      "sentence": "wisata danau"
+    },
+    {
+      "tag": "wisata_danau",
+      "sentence": "Saya ingin mengetahui apakah ada danau yang bisa dikunjungi di Kabupaten Bandung."
+    },
+    {
+      "tag": "wisata_spot_foto",
+      "sentence": "spot foto di kabupaten bandung"
+    },
+    {
+      "tag": "wisata_spot_foto",
+      "sentence": "Apakah Anda bisa memberi tahu saya lokasi-lokasi bagus untuk foto di Kabupaten Bandung?"
+    },
+    {
+      "tag": "pesona_nirwana_waterpark",
+      "sentence": "Infokan tempat wisata pesona nirwana soreang bandung!"
+    },
+    {
+      "tag": "pesona_nirwana_waterpark",
+      "sentence": "Saya ingin tahu lebih banyak tentang Pesona Nirwana Waterpark di Soreang, Bandung."
+    },
+    {
+      "tag": "tiket_pesona_nirwana_waterpark",
+      "sentence": "tiket pesona nirwana waterpark kabupaten bandung"
+    },
+    {
+      "tag": "tiket_pesona_nirwana_waterpark",
+      "sentence": "Berapa harga tiket masuk ke Pesona Nirwana Waterpark di Kabupaten Bandung?"
+    },
+    {
+      "tag": "victory_waterpark",
+      "sentence": "victory waterpark soreang"
+    },
+    {
+      "tag": "victory_waterpark",
+      "sentence": "Apakah Anda bisa memberi informasi tentang Victory Waterpark di Soreang?"
+    },
+    {
+      "tag": "tiket_victory_waterpark",
+      "sentence": "tiket masuk victory waterpark"
+    },
+    {
+      "tag": "tiket_victory_waterpark",
+      "sentence": "Saya ingin tahu harga tiket untuk masuk ke Victory Waterpark."
+    },
+    {
+      "tag": "kawasan_gedung_budaya_sabilulungan",
+      "sentence": "Kawasan Gedung Budaya Sabilulungan"
+    },
+    {
+      "tag": "kawasan_gedung_budaya_sabilulungan",
+      "sentence": "Bisa Anda ceritakan lebih lanjut tentang Kawasan Gedung Budaya Sabilulungan?"
+    },
+    {
+      "tag": "tiket_kawasan_gedung_budaya_sabilulungan",
+      "sentence": "tiket masuk Kawasan Gedung Budaya Sabilulungan"
+    },
+    {
+      "tag": "tiket_kawasan_gedung_budaya_sabilulungan",
+      "sentence": "Berapakah harga tiket masuk ke Kawasan Gedung Budaya Sabilulungan?"
+    },
+    {
+      "tag": "taman_love",
+      "sentence": "taman love bandung"
+    },
+    {
+      "tag": "taman_love",
+      "sentence": "Saya ingin mengetahui lebih banyak tentang Taman Love di Bandung."
+    },
+    {
+      "tag": "tiket_taman_love",
+      "sentence": "harga tiket taman love"
+    },
+    {
+      "tag": "tiket_taman_love",
+      "sentence": "Berapa biaya untuk masuk ke Taman Love?"
+    },
+    {
+      "tag": "barusen_hill",
+      "sentence": "barusen hill ciwidey bandung"
+    },
+    {
+      "tag": "barusen_hill",
+      "sentence": "Tolong berikan informasi tentang Barusen Hill di Ciwidey, Bandung."
+    },
+    {
+      "tag": "tiket_barusen_hill",
+      "sentence": "tiket masuk barusen hill"
+    },
+    {
+      "tag": "tiket_barusen_hill",
+      "sentence": "Berapa harga tiket untuk mengunjungi Barusen Hill?"
+    },
+    {
+      "tag": "palalangon_park",
+      "sentence": "Palalangon Park ciwidey"
+    },
+    {
+      "tag": "palalangon_park",
+      "sentence": "Saya ingin tahu lebih lanjut tentang Palalangon Park di Ciwidey."
+    },
+    {
+      "tag": "tiket_palalangon_park",
+      "sentence": "tiket masuk palalangon park"
+    },
+    {
+      "tag": "tiket_palalangon_park",
+      "sentence": "Berapakah harga tiket masuk ke Palalangon Park?"
+    },
+    {
+      "tag": "punceling_pass",
+      "sentence": "punceling pass kab bandung"
+    },
+    {
+      "tag": "punceling_pass",
+      "sentence": "Apakah Anda bisa memberi informasi tentang Punceling Pass di Kabupaten Bandung?"
+    },
+    {
+      "tag": "tiket_punceling_pass",
+      "sentence": "tiket wisata punceling pass"
+    },
+    {
+      "tag": "tiket_punceling_pass",
+      "sentence": "Berapa harga tiket masuk untuk mengunjungi Punceling Pass?"
+    },
+    {
+      "tag": "kawah_putih",
+      "sentence": "wisata ciwidey kawah putih"
+    },
+    {
+      "tag": "kawah_putih",
+      "sentence": "Beritahu Saya dan Infokan Wisata Kawah Putih di Kabupaten Bandung!"
+    },
+    {
+      "tag": "tiket_kawah_putih",
+      "sentence": "tiket wisata kawah putih"
+    },
+    {
+      "tag": "tiket_kawah_putih",
+      "sentence": "tiket masuk untuk melihat Kawah Putih?"
+    },
+    {
+      "tag": "wisata_alam_cihaniwung",
+      "sentence": "situ cihaniwung bandung"
+    },
+    {
+      "tag": "wisata_alam_cihaniwung",
+      "sentence": "Apakah Anda bisa memberikan informasi tentang Situ Cihaniwung di Bandung?"
+    },
+    {
+      "tag": "tiket_wisata_alam_cihaniwung",
+      "sentence": "tiket wisata situ cihaniwung"
+    },
+    {
+      "tag": "tiket_wisata_alam_cihaniwung",
+      "sentence": "Berapa biaya tiket masuk untuk menikmati Wisata Situ Cihaniwung?"
+    },
+    {
+      "tag": "ranca_upas",
+      "sentence": "ranca upas ciwidey"
+    },
+    {
+      "tag": "ranca_upas",
+      "sentence": "Saya ingin tahu lebih banyak tentang Ranca Upas di Ciwidey."
+    },
+    {
+      "tag": "tiket_ranca_upas",
+      "sentence": "harga tiket rancaupas"
+    },
+    {
+      "tag": "tiket_ranca_upas",
+      "sentence": "Berapa biaya untuk masuk ke Ranca Upas?"
+    },
+    {
+      "tag": "patuha_resort",
+      "sentence": "patuha resort kab bandung"
+    },
+    {
+      "tag": "patuha_resort",
+      "sentence": "Bisa Anda beri tahu saya lebih banyak tentang Patuha Resort di Kabupaten Bandung?"
+    },
+    {
+      "tag": "tiket_patuha_resort",
+      "sentence": "tiket patuha resort kabupaten bandung"
+    },
+    {
+      "tag": "tiket_patuha_resort",
+      "sentence": "Berapa harga tiket masuk ke Patuha Resort di Kabupaten Bandung?"
+    },
+    {
+      "tag": "villa_rancabali_tea_resort",
+      "sentence": "Villa Rancabali Tea Resort kab bandung"
+    },
+    {
+      "tag": "villa_rancabali_tea_resort",
+      "sentence": "Saya ingin tahu lebih lanjut tentang Villa Rancabali Tea Resort di Kabupaten Bandung."
+    },
+    {
+      "tag": "tiket_villa_rancabali_tea_resort",
+      "sentence": "harga sewa villa rancabali tea resort"
+    },
+    {
+      "tag": "tiket_villa_rancabali_tea_resort",
+      "sentence": "Berapa biaya untuk menyewa villa di Rancabali Tea Resort di Kabupaten Bandung?"
+    },
+    {
+      "tag": "walini",
+      "sentence": "pemandian air panas walini"
+    },
+    {
+      "tag": "walini",
+      "sentence": "Tolong berikan informasi tentang Pemandian Air Panas Walini."
+    },
+    {
+      "tag": "tiket_walini",
+      "sentence": "tiket masuk walini"
+    },
+    {
+      "tag": "tiket_walini",
+      "sentence": "Berapakah harga tiket untuk masuk ke Pemandian Air Panas Walini?"
+    },
+    {
+      "tag": "glamping_lakeside",
+      "sentence": "glamping lakeside ciwidey bandung"
+    },
+    {
+      "tag": "glamping_lakeside",
+      "sentence": "Saya ingin tahu lebih banyak tentang wisata glamping di Glamping Lakeside di Ciwidey."
+    },
+    {
+      "tag": "tiket_glamping_lakeside",
+      "sentence": "tiket wisata glamping lakeside"
+    },
+    {
+      "tag": "tiket_glamping_lakeside",
+      "sentence": "Berapa biaya tiket masuk di Glamping Lakeside?"
+    },
+    {
+      "tag": "kampung_batu_malakasari",
+      "sentence": "kampung batu malakasari baleendah"
+    },
+    {
+      "tag": "kampung_batu_malakasari",
+      "sentence": "Apakah Anda bisa memberikan informasi tentang Kampung Batu Malakasari di Baleendah?"
+    },
+    {
+      "tag": "tiket_kampung_batu_malakasari",
+      "sentence": "tiket masuk kampung batu malakasari"
+    },
+    {
+      "tag": "tiket_kampung_batu_malakasari",
+      "sentence": "Berapa biaya tiket masuk untuk menjelajahi Kampung Batu Malakasari?"
+    },
+    {
+      "tag": "kolam_renang_alhayu",
+      "sentence": "kolam renang al hayu baleendah"
+    },
+    {
+      "tag": "kolam_renang_alhayu",
+      "sentence": "Apakah Anda bisa memberikan informasi tentang kolam renang al hayu baleendah?"
+    },
+    {
+      "tag": "tiket_kolam_renang_alhayu",
+      "sentence": "tiket masuk Kolam Renang Al-Hayu"
+    },
+    {
+      "tag": "tiket_kolam_renang_alhayu",
+      "sentence": "Berapa biaya untuk masuk ke Kolam Renang Al-Hayu?"
+    },
+    {
+      "tag": "kolam_renang_tirta_mulya",
+      "sentence": "kolam renang tirta mulya bandung"
+    },
+    {
+      "tag": "kolam_renang_tirta_mulya",
+      "sentence": "Apakah Anda bisa beri tahu saya tentang informasi Kolam Renang Tirta Mulya di Bandung?"
+    },
+    {
+      "tag": "tiket_kolam_renang_tirta_mulya",
+      "sentence": "tiket kolam renang tirta mulya"
+    },
+    {
+      "tag": "tiket_kolam_renang_tirta_mulya",
+      "sentence": "Berapa harga tiket masuk untuk Kolam Renang Tirta Mulya?"
+    },
+    {
+      "tag": "waterboom_cahaya_abadi",
+      "sentence": "Waterboom Cahaya Abadi banjaran"
+    },
+    {
+      "tag": "waterboom_cahaya_abadi",
+      "sentence": "Tolong berikan informasi tentang Waterboom Cahaya Abadi di Banjaran."
+    },
+    {
+      "tag": "tiket_waterboom_cahaya_abadi",
+      "sentence": "harga tiket Waterboom Cahaya Abadi"
+    },
+    {
+      "tag": "tiket_waterboom_cahaya_abadi",
+      "sentence": "Berapa biaya tiket masuk untuk Waterboom Cahaya Abadi?"
+    },
+    {
+      "tag": "gunung_puntang",
+      "sentence": "puncak gunung puntang"
+    },
+    {
+      "tag": "gunung_puntang",
+      "sentence": "Saya ingin tahu lebih lanjut tentang Gunung Puntang."
+    },
+    {
+      "tag": "tiket_gunung_puntang",
+      "sentence": "harga tiket gunung puntang"
+    },
+    {
+      "tag": "tiket_gunung_puntang",
+      "sentence": "Berapa biaya untuk masuk ke Gunung Puntang?"
+    },
+    {
+      "tag": "kolam_renang_cimenteng",
+      "sentence": "kolam renang cimenteng bandung"
+    },
+    {
+      "tag": "kolam_renang_cimenteng",
+      "sentence": "Tolong berikan informasi tentang Kolam Renang Cimenteng di Bandung?"
+    },
+    {
+      "tag": "tiket_kolam_renang_cimenteng",
+      "sentence": "harga tiket kolam renang cimenteng"
+    },
+    {
+      "tag": "tiket_kolam_renang_cimenteng",
+      "sentence": "Berapa biaya untuk masuk ke Kolam Renang Cimenteng?"
+    },
+    {
+      "tag": "cibolang",
+      "sentence": "Cibolang pemandian Air Panas"
+    },
+    {
+      "tag": "cibolang",
+      "sentence": "Apakah Anda punya informasi tentang Cibolang pemandian Air Panas?"
+    },
+    {
+      "tag": "malabar",
+      "sentence": "kebun teh Malabar"
+    },
+    {
+      "tag": "malabar",
+      "sentence": "Informasi wisata Kebun Teh Malabar?"
+    },
+    {
+      "tag": "situ_cileunca",
+      "sentence": "wisata situ cileunca"
+    },
+    {
+      "tag": "situ_cileunca",
+      "sentence": "Saya ingin tahu lebih banyak tentang Situ Cileunca."
+    },
+    {
+      "tag": "wayang_windu",
+      "sentence": "wisata wayang windu pangalengan"
+    },
+    {
+      "tag": "wayang_windu",
+      "sentence": "Apakah Anda punya informasi tentang Wayang Windu di Pangalengan?"
+    },
+    {
+      "tag": "cukul_sunrise_point",
+      "sentence": "sunrise point cukul pangalengan"
+    },
+    {
+      "tag": "cukul_sunrise_point",
+      "sentence": "Saya ingin tahu tentang sunrise point cukul pangalengan"
+    },
+    {
+      "tag": "caringin_tilu",
+      "sentence": "caringin tilu bandung"
+    },
+    {
+      "tag": "caringin_tilu",
+      "sentence": "Saya ingin tahu lebih banyak tentang Caringin Tilu di Bandung."
+    },
+    {
+      "tag": "kramat_gantung",
+      "sentence": "Kramat Gantung paseh"
+    },
+    {
+      "tag": "kramat_gantung",
+      "sentence": "Apakah Anda punya informasi tentang Kramat Gantung di Paseh?"
+    },
+    {
+      "tag": "waterboom_tirta_riang",
+      "sentence": "Waterboom Tirta Riang ciparay"
+    },
+    {
+      "tag": "waterboom_tirta_riang",
+      "sentence": "Saya ingin tahu lebih banyak tentang Waterboom Tirta Riang ciparay"
+    },
+    {
+      "tag": "villa_kancil",
+      "sentence": "villa kancil majalaya"
+    },
+    {
+      "tag": "villa_kancil",
+      "sentence": "Apakah Anda punya informasi tentang Villa Kancil di Majalaya?"
+    },
+    {
+      "tag": "cisanti",
+      "sentence": "situ cisanti bandung"
+    },
+    {
+      "tag": "cisanti",
+      "sentence": "Saya ingin tahu lebih banyak tentang Situ Cisanti di Bandung."
+    },
+    {
+      "tag": "tirta_anyar",
+      "sentence": "Tirta Anyar bandung"
+    },
+    {
+      "tag": "tirta_anyar",
+      "sentence": "Saya ingin tahu tentang Tirta Anyar di Bandung?"
+    },
+    {
+      "tag": "pemandian_air_panas_tirta_camelia",
+      "sentence": "kolam renang Tirta Camelia pangalengan"
+    },
+    {
+      "tag": "pemandian_air_panas_tirta_camelia",
+      "sentence": "Apakah Anda punya informasi tentang Kolam Renang Tirta Camelia di Pangalengan?"
+    },
+    {
+      "tag": "sukamanah_waterboom",
+      "sentence": "wisata Sukamanah Waterboom"
+    },
+    {
+      "tag": "sukamanah_waterboom",
+      "sentence": "Saya ingin tahu lebih banyak tentang Sukamanah Waterboom."
+    },
+    {
+      "tag": "kolam_renang_yasmin_kartika_suri",
+      "sentence": "Kolam Renang Yasmin arjasari"
+    },
+    {
+      "tag": "kolam_renang_yasmin_kartika_suri",
+      "sentence": "Tolong berikan info tentang Kolam Renang Yasmin Kartika Suri di Arjasari?"
+    },
+    {
+      "tag": "curug_cinulang",
+      "sentence": "Curug Cinulang cicalengka"
+    },
+    {
+      "tag": "curug_cinulang",
+      "sentence": "Saya ingin tahu lebih banyak tentang Curug Cinulang di Cicalengka."
+    },
+    {
+      "tag": "cicalengka_dreamland",
+      "sentence": "wisata Cicalengka Dreamland"
+    },
+    {
+      "tag": "cicalengka_dreamland",
+      "sentence": "Apakah Anda punya informasi tentang Cicalengka Dreamland?"
+    },
+    {
+      "tag": "taman_buru_masigit_kareumbi",
+      "sentence": "Taman Buru Masigit Kareumbi cicalengka"
+    },
+    {
+      "tag": "taman_buru_masigit_kareumbi",
+      "sentence": "Berikan info terkait Taman Buru Masigit Kareumbi di Cicalengka?"
+    },
+    {
+      "tag": "kolam_renang_cisago",
+      "sentence": "Kolam Renang Cisago margahayu"
+    },
+    {
+      "tag": "kolam_renang_cisago",
+      "sentence": "Apakah Anda punya informasi tentang Kolam Renang Cisago di Margahayu?"
+    },
+    {
+      "tag": "curug_cilengkrang",
+      "sentence": "wisata Curug Cilengkrang"
+    },
+    {
+      "tag": "curug_cilengkrang",
+      "sentence": "Saya ingin tahu lebih banyak tentang Curug Cilengkrang."
+    },
+    {
+      "tag": "batu_kuda",
+      "sentence": "Batu Kuda gunung manglayang"
+    },
+    {
+      "tag": "batu_kuda",
+      "sentence": "Apakah Anda punya informasi tentang Batu Kuda di Gunung Manglayang?"
+    },
+    {
+      "tag": "tahura",
+      "sentence": "wisata Tahura"
+    },
+    {
+      "tag": "tahura",
+      "sentence": "Saya ingin tahu lebih banyak tentang Tahura"
+    },
+    {
+      "tag": "tebing_kraton",
+      "sentence": "Tebing Kraton di bandung"
+    },
+    {
+      "tag": "tebing_kraton",
+      "sentence": "Apakah Anda punya informasi tentang Tebing Kraton di Bandung?"
+    },
+    {
+      "tag": "puncak_bintang",
+      "sentence": "wisata Puncak Bintang"
+    },
+    {
+      "tag": "puncak_bintang",
+      "sentence": "Tolong beritahu saya informasi wisata Puncak Bintang"
+    },
+    {
+      "tag": "taman_langit",
+      "sentence": "Taman Langit pangalengan"
+    },
+    {
+      "tag": "taman_langit",
+      "sentence": "Saya ingin tahu lebih banyak tentang Taman Langit di Pangalengan."
+    },
+    {
+      "tag": "curug_batu_templek",
+      "sentence": "wisata Curug Batu Templek"
+    },
+    {
+      "tag": "curug_batu_templek",
+      "sentence": "Apakah Anda punya informasi tentang Curug Batu Templek?"
+    },
+    {
+      "tag": "danau_cikoneng_bojongsoang",
+      "sentence": "Danau Cikoneng Bojongsoang bandung"
+    },
+    {
+      "tag": "danau_cikoneng_bojongsoang",
+      "sentence": "Infokan wisata tentang Danau Cikoneng Bojongsoang bandung"
+    },
+    {
+      "tag": "nuansa_riung_gunung",
+      "sentence": "wisata Nuansa Riung Gunung"
+    },
+    {
+      "tag": "nuansa_riung_gunung",
+      "sentence": "Saya ingin tahu lebih banyak tentang Nuansa Riung Gunung."
+    },
+    {
+      "tag": "argo_wisata_mega_tutupan_baros",
+      "sentence": "Argo Wisata Mega Tutupan Baros bandung"
+    },
+    {
+      "tag": "argo_wisata_mega_tutupan_baros",
+      "sentence": "Apakah Anda punya informasi tentang Argo Wisata Mega Tutupan Baros di Bandung?"
+    },
+    {
+      "tag": "bendungan_abah_hantap",
+      "sentence": "Bendungan Abah Hantap bandung"
+    },
+    {
+      "tag": "bendungan_abah_hantap",
+      "sentence": "Beritahu saya informasi Bendungan Abah Hantap bandung"
+    },
+    {
+      "tag": "ranca_cangkuang",
+      "sentence": "perkemahan Ranca Cangkuang"
+    },
+    {
+      "tag": "ranca_cangkuang",
+      "sentence": "Saya ingin tahu lebih banyak tentang wisata Ranca Cangkuang"
+    },
+    {
+      "tag": "sebe_adventure_pangalengan",
+      "sentence": "wisata Sebe Adventure Pangalengan"
+    },
+    {
+      "tag": "sebe_adventure_pangalengan",
+      "sentence": "Tolong beritahu saya info wisata Sebe Adventure Pangalengan"
+    },
+    {
+      "tag": "taman_dcakra",
+      "sentence": "kolam renang Taman D'Cakra"
+    },
+    {
+      "tag": "taman_dcakra",
+      "sentence": "Infokan tempat wisata kolam renang Taman D'Cakra"
+    },
+    {
+      "tag": "kawah_wayang",
+      "sentence": "Kawah Wayang pangalengan"
+    },
+    {
+      "tag": "kawah_wayang",
+      "sentence": "Apakah Anda punya informasi tentang Kawah Wayang di Pangalengan?"
+    },
+    {
+      "tag": "tangga_seribu",
+      "sentence": "wisata tangga seribu"
+    },
+    {
+      "tag": "tangga_seribu",
+      "sentence": "infokan wisata tangga seribu"
+    },
+    {
+      "tag": "cantigi_camp",
+      "sentence": "Cantigi Camp cileunyi"
+    },
+    {
+      "tag": "cantigi_camp",
+      "sentence": "Saya ingin tahu lebih banyak tentang pengalaman berkemah di Cantigi Camp di Cileunyi."
+    },
+    {
+      "tag": "kolam_renang_darmaga_adiwisastra",
+      "sentence": "Kolam Renang Darmaga Adiwisastra bandung"
+    },
+    {
+      "tag": "kolam_renang_darmaga_adiwisastra",
+      "sentence": "Apakah Anda punya informasi tentang Kolam Renang Darmaga Adiwisastra di Bandung?"
+    },
+    {
+      "tag": "aborigin_swimming_pool",
+      "sentence": "wisata Aborigin Swimming Pool"
+    },
+    {
+      "tag": "aborigin_swimming_pool",
+      "sentence": "tolong beritahu saya terkait info wisata Aborigin Swimming Pool"
     }
-  ]
+]
   
