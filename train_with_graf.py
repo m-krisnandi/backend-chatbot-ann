@@ -43,7 +43,7 @@ for intent in intents['intents']:
 # ignore_words = ['?', '.', '!', ',']
 # all_words = [stem(w) for w in all_words if w not in ignore_words]
 
-# Preprocessing teks: case folding dan stemming
+# Preprocessing teks: stemming
 all_words = [stem(w) for w in all_words]
 
 # Menghapus duplikasi dan melakukan pengurutan pada kata-kata dan tag
@@ -66,7 +66,8 @@ for (pattern_sentence, tag) in xy:
     # X: Konversi pattern_sentence menjadi bentuk bag of words
     bag = bag_of_words(pattern_sentence, all_words)
     X_train.append(bag)
-    # y: PyTorch CrossEntropyLoss hanya memerlukan label kelas yang sesuai dengan index tag dalam tags
+    # y: PyTorch CrossEntropyLoss hanya memerlukan label kelas
+    # yang sesuai dengan index tag dalam tags
     label = tags.index(tag)
     y_train.append(label)
 
@@ -82,8 +83,8 @@ print("y_train: ", y_train)
 num_epochs = 500
 batch_size = 8
 learning_rate = 0.001
-input_size = len(X_train[0])
 hidden_size = 128
+input_size = len(X_train[0])
 output_size = len(tags)
 print(input_size, output_size)
 
@@ -132,46 +133,34 @@ accuracy_list = []
 # Loop pelatihan model
 for epoch in range(num_epochs):
     epoch_loss = 0 # Variabel untuk menyimpan total loss per epoch
-
     # Memuat data pelatihan dalam batch
     for words, labels in train_loader:
         # Memindahkan data batch ke device (GPU/CPU) yang digunakan
         words = words.to(device)
         labels = labels.to(device)
-
         # Mengatur gradient ke 0 sebelum dilakukan backpropagation
         optimizer.zero_grad()
-
         # Forward pass: menghitung output model saat ini
         outputs = model(words)
-
         # Hitung loss dengan membandingkan output dan label
         loss = criterion(outputs, labels)
-
         # Backward pass: hitung gradient loss
         loss.backward()
-
         # Update model dengan optimizer (menggunakan algoritma Adam)
         optimizer.step()
-
         # Akumulasi total loss per epoch
         epoch_loss += loss.item()
-
         # Hitung akurasi batch ini
         _, predicted = torch.max(outputs.data, 1)
         total += labels.size(0)
         correct += (predicted == labels).sum().item()
-
     # Rata-rata loss per epoch
     epoch_loss /= len(train_loader)
-
     # Hitung akurasi per epoch
     accuracy = correct / total * 100
-
     # Simpan loss dan akurasi tiap epoch
     loss_list.append(epoch_loss)
     accuracy_list.append(accuracy)
-
     # Print loss dan akurasi per 100 epoch
     if (epoch + 1) % 100 == 0:
         print(f'Epoch [{epoch + 1}/{num_epochs}], Loss: {epoch_loss:.4f}, Accuracy: {accuracy:.2f}%')

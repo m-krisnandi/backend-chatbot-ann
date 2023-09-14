@@ -33,7 +33,8 @@
       "patterns": [
         "wisata air terjun",
         "nuansa air terjun",
-        "air terjun di kabupaten bandung"
+        "air terjun di kabupaten bandung",
+        "air terjun"
       ],
       "responses": [
         "*Wisata yang bernuansa air terjun di Kabupaten Bandung diantaranya, yaitu:*\n1. Curug Cinulang\n2. Curug Cilengkrang\n3. Curug Batu Templek\n4. Bendungan Abah Hantap"
@@ -43,7 +44,8 @@
       "tag": "wisata_kolam_renang",
       "patterns": [
         "wisata kolam renang",
-        "kolam renang di kabupaten bandung"
+        "kolam renang di kabupaten bandung",
+        "kolam renang"
       ],
       "responses": [
         "*Wisata kolam renang di Kabupaten Bandung diantaranya, yaitu:*\n1. Pesona Nirwana Waterpark\n2. Victory Waterpark\n3. Taman Love\n4. Barusen Hill\n5. Palalangon Park\n6. Kampung Batu Malakasari\n7. Kolam Renang Alhayu\n8. Kolam Renang Tirta Mulya\n9. Waterboom Cahaya Abadi\n10. Kolam Renang Cimenteng\n11. Waterboom Tirta Riang\n12. Sukamanah Waterboom\n13. Kolam Renang Cisago\n14. Taman D'Cakra\n15. Kolam Renang Darmaga Adiwisastra"
@@ -54,7 +56,8 @@
       "patterns": [
         "wisata pegunungan",
         "nuansa pegunungan",
-        "pegunungan di kabupaten bandung"
+        "pegunungan di kabupaten bandung",
+        "gununng"
       ],
       "responses": [
         "*Wisata yang bernuansa pegunungan di Kabupaten Bandung diantaranya, yaitu:*\n1. Kawah Putih\n2. Ranca Upas\n3. Gunung Puntang\n4. Wayang Windu\n5. Cukul Sunrise Point\n6. Caringin Tilu\n7. Batu Kuda\n8. Tebing Keraton\n9. Puncak Bintang\n10. Nuansa Riung Gunung\n11. Kawah Wayang"
@@ -65,7 +68,8 @@
       "patterns": [
         "wisata taman",
         "nuansa taman",
-        "taman di kabupaten bandung"
+        "taman di kabupaten bandung",
+        "taman"
       ],
       "responses": [
         "*Wisata yang bernuansa taman di Kabupaten Bandung diantaranya, yaitu:*\n1. Taman Love\n2. Barusen Hill\n3. Taman Buru Masigit Kareumbi \n4. Tahura\n5. Taman Langit\n6. Taman D'Cakra "
@@ -77,7 +81,8 @@
         "wisata berkemah",
         "nuansa berkemah",
         "nuansa perkemahan",
-        "berkemah di kabupaten bandung"
+        "berkemah di kabupaten bandung",
+        "kemah"
       ],
       "responses": [
         "*Wisata yang bernuansa perkemahan di Kabupaten Bandung diantaranya, yaitu:*\n1. Punceling Pass\n2. Ranca Upas\n3. Glamping Lakeside\n4. Gunung Puntang\n5. Kolam Renang Yasmin Kartika Suri\n6. Cicalengka Dreamland\n7. Taman Buru Masigit Kareumbi\n8. Batu Kuda\n9. Nuansa Riung Gunung\n10. Agrowisata Mega Tutupan Baros\n11. Ranca Cangkuang\n12. Tangga Seribu\n13. Cantigi Camp"
@@ -87,7 +92,8 @@
       "tag": "wisata_pemandian_air_panas",
       "patterns": [
         "wisata pemandian air panas",
-        "pemandian air panas di kabupaten bandung"
+        "pemandian air panas di kabupaten bandung",
+        "air panas"
       ],
       "responses": [
         "*Wisata pemandian air panas di Kabupaten Bandung diantaranya, yaitu:*\n1. Palalangon Park\n2. Ranca Upas\n3. Walini\n4. Cibolang\n5. Tirta Anyar\n6. Pemandian Air Panas Tirta Camelia\n7. Kolam Renang Yasmin Kartika Suri\n8. Aborigin Swimming Pool"
@@ -97,7 +103,8 @@
       "tag": "wisata_danau",
       "patterns": [
         "wisata danau",
-        "danau di kabupaten bandung"
+        "danau di kabupaten bandung",
+        "danau"
       ],
       "responses": [
         "*Wisata danau di Kabupaten Bandung diantaranya, yaitu:*\n1. Situ Cihaniwung\n2. Glamping Lakeside\n3. Situ Cileunca\n4. Cisanti\n5. Danau Cikoneng Bojongsoang"
@@ -107,7 +114,8 @@
       "tag": "wisata_spot_foto",
       "patterns": [
         "wisata spot foto",
-        "spot foto di kabupaten bandung"
+        "spot foto di kabupaten bandung",
+        "foto"
       ],
       "responses": [
         "*Wisata yang cocok untuk spot foto di Kabupaten Bandung diantaranya, yaitu:*\n1. Taman Love\n2. Barusen Hill\n3. Palalangon Park\n4. Situ Cihaniwung\n5. Walini\n6. Kolam Renang Alhayu\n7. Wayang WIndu\n8. Cukul Sunrise Point\n9. Caringin Tilu\n10. Tirta Anyar\n11. Cicalengka Dreamland\n12. Tebing Keraton\n13. Taman Langit\n14. Danau Cikoneng Bojongsoang\n15. Nuansa Riung Gunung\n16. Agrowisata Mega Tutupan Baros\n17. Bendungan Abah Hantap\n18. Kolam Renang Darmaga Adiwisastra"

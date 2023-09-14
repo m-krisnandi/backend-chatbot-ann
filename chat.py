@@ -56,32 +56,31 @@ class ChatResponse:
         self.image_url = image_url
         self.coordinates = coordinates
 
+# Fungsi untuk menghasilkan respon chatbot
+# berdasarkan input teks yang diberikan.
 def get_response(msg):
-    """
-        Fungsi untuk menghasilkan respon chatbot berdasarkan input teks yang diberikan.
-    """
-    # Memproses pesan pengguna dengan fungsi tokenize dari modul nltk_utils.
+    # Memproses pesan pengguna dengan fungsi
+    # tokenize dari modul nltk_utils.
     sentence = tokenize(msg)
-    # Mengubah pesan pengguna menjadi vektor bag-of-words dengan menggunakan fungsi bag_of_words dari modul nltk_utils.
+    # Mengubah pesan pengguna menjadi vektor bag-of-words
+    # dengan menggunakan fungsi bag_of_words dari modul nltk_utils.
     X = bag_of_words(sentence, all_words)
     # Mengubah vektor bag-of-words menjadi tensor.
     X = X.reshape(1, X.shape[0])
-    # Mengubah vektor X menjadi tensor PyTorch dan memindahkannya ke device yang telah ditentukan sebelumnya.
+    # Mengubah vektor X menjadi tensor PyTorch dan
+    # memindahkannya ke device yang telah ditentukan sebelumnya.
     X = torch.from_numpy(X).to(device)
-
     # Melakukan inferensi pada model dengan input X.
     output = model(X)
     # Mencari index dengan nilai probabilitas terbesar pada output.
     _, predicted = torch.max(output, dim=1)
-
     # Menentukan tag yang sesuai dengan index predicted.
     tag = tags[predicted.item()]
-
     # Menghitung softmax dari output dan print.
     probs = torch.softmax(output, dim=1)
-    print(probs)
     # Menentukan probabilitas prediksi.
     prob = probs[0][predicted.item()]
+    print(probs)
     # Jika probabilitas prediksi lebih besar dari threshold (0.75),
     # maka ambil respons dari intents.json berdasarkan tag yang sesuai.
     if prob.item() > 0.75:
@@ -92,9 +91,8 @@ def get_response(msg):
                 image_url = intent.get('image_url')
                 coordinates = intent.get('coordinates')
                 return ChatResponse(response, image_url, coordinates)
-
     # Jika probabilitas prediksi lebih kecil dari threshold, maka kembalikan respons default.
-    return ChatResponse("Maaf saya tidak mengerti. Mohon berikan pertanyaan terkait objek wisata di Kabupaten Bandung.")
+    return ChatResponse("Maaf saya tidak mengerti. Mohon berikan pertanyaan lain.")
 
 # Fungsi untuk mengambil respon chatbot berdasarkan input teks yang diberikan.
 if __name__ == "__main__":
