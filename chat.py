@@ -1,6 +1,6 @@
 import json
-import torch
-import redis
+import torch # Mengimpor library PyTorch untuk membuat dan melatih model neural network.
+import redis # Mengimpor modul redis untuk menghubungkan ke Redis server.
 import os
 from dotenv import load_dotenv
 from model import ANeuralNet
@@ -56,7 +56,6 @@ class ChatResponse:
         self.image_url = image_url
         self.coordinates = coordinates
 
-
 # Fungsi untuk menghasilkan respon chatbot
 # berdasarkan input teks yang diberikan.
 def get_response(msg):
@@ -72,41 +71,30 @@ def get_response(msg):
     # memindahkannya ke device yang telah ditentukan sebelumnya.
     X = torch.from_numpy(X).to(device)
     # Melakukan inferensi pada model dengan input X.
-    print(X)
-
-    # Mengambil posisi (indeks) vektor yang sesuai dengan kata-kata dalam inputan
-    positions = [idx for idx, value in enumerate(X[0]) if value == 1]
-
-    # Cetak posisi (indeks) vektor yang sesuai
-    print("Posisi (indeks) yang sesuai dengan kata-kata dalam inputan:", positions)
-
-    # Mencetak vektor X yang sesuai dengan kata-kata dalam inputan
-    for idx, value in enumerate(X[0]):
-        if value == 1:
-            print(f"Kata '{all_words[idx]}' memiliki nilai {value}")
-
     output = model(X)
-    print(output)
-    # Mencari index dengan nilai terbesar pada output.
-    max_value, predicted = torch.max(output, dim=1)
-    # print(predicted)
-    print(max_value)
-    print(predicted.item())
+    # Mencari index dengan nilai probabilitas terbesar pada output.
+    _, predicted = torch.max(output, dim=1)
     # Menentukan tag yang sesuai dengan index predicted.
     tag = tags[predicted.item()]
-    print(tag)
-    # Periksa apakah vektor bag-of-words tidak mengandung nilai 1.0
-    if 1.0 not in X[0]:
-        return ChatResponse("Maaf saya tidak mengerti. Mohon berikan pertanyaan lain.")
-    # Mencari respons dari intents.json berdasarkan tag yang sesuai.
-    for intent in intents['intents']:
-        if tag == intent["tag"]:
-            responses = intent['responses']
-            response = responses[0]
-            image_url = intent.get('image_url')
-            coordinates = intent.get('coordinates')
-            return ChatResponse(response, image_url, coordinates)
+    # Menghitung softmax dari output dan print.
+    probs = torch.softmax(output, dim=1)
+    # Menentukan probabilitas prediksi.
+    prob = probs[0][predicted.item()]
+    print(probs)
+    # Jika probabilitas prediksi lebih besar dari threshold (0.75),
+    # maka ambil respons dari intents.json berdasarkan tag yang sesuai.
+    if prob.item() > 0.75:
+        for intent in intents['intents']:
+            if tag == intent["tag"]:
+                responses = intent['responses']
+                response = responses[0]
+                image_url = intent.get('image_url')
+                coordinates = intent.get('coordinates')
+                return ChatResponse(response, image_url, coordinates)
+    # Jika probabilitas prediksi lebih kecil dari threshold, maka kembalikan respons default.
+    return ChatResponse("Maaf saya tidak mengerti. Mohon berikan pertanyaan lain.")
 
+# Fungsi untuk mengambil respon chatbot berdasarkan input teks yang diberikan.
 if __name__ == "__main__":
     print("Let's chat! (type 'quit' to exit)")
     while True:
