@@ -19,7 +19,7 @@ def stem(word):
 
 def bag_of_words(tokenized_sentence, all_words):
     """
-    tokenized_sentence = ['beritahu', 'info', 'wisata', 'kawah', 'putih', 'kabupaten', 'bandung', '']
+    tokenized_sentence = ['info', 'wisata', 'kawah', 'putih', 'kabupaten', 'bandung']
     all_words = ['info', 'wisata', 'kawah', 'putih', 'di', 'kabupaten', 'bandung']
     bag = [1. 1. 1. 1. 0. 1. 1.]
     """
@@ -57,7 +57,7 @@ def bag_of_words(tokenized_sentence, all_words):
 # Output: ['beritahu', 'info', 'wisata', 'kawah', 'putih', 'kabupaten', 'bandung', '']
 
 # Testing Bag of Words
-# tokenized_sentence = ['beritahu', 'info', 'wisata', 'kawah', 'putih', 'kabupaten', 'bandung', '']
+# tokenized_sentence = ['info', 'wisata', 'kawah', 'putih', 'kabupaten', 'bandung']
 # all_words = ['info', 'wisata', 'kawah', 'putih', 'di', 'kabupaten', 'bandung']
 # bag = bag_of_words(tokenized_sentence, all_words)
 # print(bag)
