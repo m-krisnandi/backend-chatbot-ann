@@ -72,8 +72,12 @@ def get_response(msg):
     X = torch.from_numpy(X).to(device)
     # Melakukan inferensi pada model dengan input X.
     output = model(X)
-    # Mencari index dengan nilai probabilitas terbesar pada output.
-    _, predicted = torch.max(output, dim=1)
+    print(output)
+    # Mencari index dengan nilai terbesar pada output.
+    max_value, predicted = torch.max(output, dim=1)
+    # print(predicted)
+    print(max_value)
+    print(predicted.item())
     # Menentukan tag yang sesuai dengan index predicted.
     tag = tags[predicted.item()]
     # Menghitung softmax dari output dan print.
